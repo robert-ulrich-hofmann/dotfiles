@@ -1,0 +1,6 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Robert Hofmann
+	email = robert.ulrich.hofmann@gmail.com
+[core]
+	editor = nano
