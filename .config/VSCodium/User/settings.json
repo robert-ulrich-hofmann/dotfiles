@@ -1,0 +1,26 @@
+{
+    "editor.fontFamily": "'Fira Mono', 'Fira Mono Medium', 'monospace', 'monospaced'",
+    "editor.fontSize": 12,
+    "editor.fontWeight": "normal",
+
+    "outline.showNamespaces": true,
+
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.matchBrackets": "always",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.autoClosingBrackets": "never",
+    
+    "editor.rulers": [72, 80, 120],
+    "editor.wordWrapColumn": 80,
+    "editor.wordWrap": "bounded",
+    "editor.wrappingStrategy": "simple",
+    "editor.wrappingIndent": "deepIndent",
+
+    "search.showLineNumbers": true,
+
+    "window.menuBarVisibility": "toggle",
+
+    "workbench.colorTheme": "Default Light Modern"
+}
