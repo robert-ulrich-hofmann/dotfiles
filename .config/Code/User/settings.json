@@ -26,10 +26,10 @@
     // todo
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.colorDecorators": false,
-    "editor.comments.insertSpace": false, // no space when "commenting out"
+    "editor.comments.insertSpace": false, // no space when "commenting out"    d
     // todo
     "editor.fontFamily": "Consolas, DejaVu Sans Mono",
-    "editor.fontSize": 12,
+    "editor.fontSize": 11,
     "editor.lineHeight": 0, // 0 sets fontSize + 4 // todo
     "editor.fontWeight": "normal",
     "editor.fontLigatures": false,
@@ -49,7 +49,7 @@
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [72, 80, 100, 120],
     "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 80,
+    "editor.wordWrapColumn": 100,
     "editor.multiCursorModifier": "alt",
     "editor.suggestSelection": "first",
     "editor.acceptSuggestionOnEnter": "off",
@@ -166,7 +166,7 @@
     "terminal.integrated.showExitAlert": true,
     "terminal.integrated.fontFamily": "Consolas, monospace",
     "terminal.integrated.fontWeight": "normal",
-    "terminal.integrated.fontSize": 9,
+    "terminal.integrated.fontSize": 11,
     "terminal.integrated.lineHeight": 1,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     // TODO check whether %userprofile% works like this
@@ -190,7 +190,7 @@
     },
 
     // window
-    "window.titleBarStyle": "custom",
+    "window.titleBarStyle": "native",
     "window.customMenuBarAltFocus": true,
     "window.enableMenuBarMnemonics": true,
     "window.autoDetectColorScheme": false,
@@ -384,7 +384,7 @@
 
     "search.showLineNumbers": true,
 
-    "window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "visible",
     "workbench.iconTheme": "vs-minimal"
 
     // todo automatically added:
