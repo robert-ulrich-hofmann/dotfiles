@@ -29,17 +29,17 @@
     "editor.comments.insertSpace": false, // no space when "commenting out"    d
     // todo
     "editor.fontFamily": "Consolas, DejaVu Sans Mono",
-    "editor.fontSize": 11,
+    "editor.fontSize": 12,
     "editor.lineHeight": 0, // 0 sets fontSize + 4 // todo
     "editor.fontWeight": "normal",
     "editor.fontLigatures": false,
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.minimap.maxColumn": 120,
     "editor.minimap.renderCharacters": true,
-    "editor.minimap.scale": 1,
+    "editor.minimap.scale": 3,
     "editor.minimap.showSlider": "always",
     "editor.minimap.side": "right",
     "editor.minimap.size": "proportional",
@@ -190,12 +190,15 @@
     },
 
     // window
-    "window.titleBarStyle": "native",
+    // TODO setting this to native fucks up the context menu on kde/linux!
+    "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "never",
+    "window.commandCenter": false,
     "window.customMenuBarAltFocus": true,
     "window.enableMenuBarMnemonics": true,
     "window.autoDetectColorScheme": false,
-    "window.commandCenter": false,
     "window.zoomLevel": -1,
+    "window.zoomPerWindow": false,
 
     // workbench
     "workbench.enableExperiments": false,
@@ -385,7 +388,8 @@
     "search.showLineNumbers": true,
 
     "window.menuBarVisibility": "visible",
-    "workbench.iconTheme": "vs-minimal"
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.layoutControl.enabled": false,
 
     // todo automatically added:
 }
