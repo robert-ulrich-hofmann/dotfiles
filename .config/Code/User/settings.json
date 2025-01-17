@@ -345,17 +345,25 @@
     // better comments
     "better-comments.tags": [
         {
-        "tag": "TODO",
-        "color": "#FF8C00",
-        "strikethrough": false,
-        "backgroundColor": "transparent"
+            "tag": "TODO",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
         },
+        // HTML
         {
-        "tag": "<!-- TODO",
-        "color": "#FF8C00",
-        "strikethrough": false,
-        "backgroundColor": "transparent"
-        }
+            "tag": "<!-- TODO",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
+        // pandoc (Markdown, TeX)
+        {
+            "tag": "<!--- TODO",
+            "color": "#FF8C00",
+            "strikethrough": false,
+            "backgroundColor": "transparent"
+        },
     ],
     "better-comments.multilineComments": true,
     "better-comments.highlightPlainText": true,
