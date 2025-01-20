@@ -5,3 +5,5 @@
 	useConfigOnly = true
 [core]
 	editor = nano
+[init]
+	defaultBranch = master
