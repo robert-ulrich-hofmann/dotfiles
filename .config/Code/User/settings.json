@@ -55,6 +55,7 @@
     "editor.acceptSuggestionOnEnter": "off",
     "editor.acceptSuggestionOnCommitCharacter": false,
     "editor.bracketPairColorization.enabled": false,
+    "editor.autoClosingBrackets": "always",
     // overwrites themes editor-wide!
     "editor.tokenColorCustomizations": {
         // quick-set all color, don't use but find out scope-grouping
@@ -388,7 +389,7 @@
     "outline.showNamespaces": true,
 
     "editor.matchBrackets": "always",
-    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingBrackets": "always",
 
     "editor.wrappingStrategy": "simple",
     "editor.wrappingIndent": "deepIndent",
