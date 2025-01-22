@@ -1,13 +1,157 @@
 {
+    /**
+       VSCODE
+    */
+
     // breadcrumbs
     "breadcrumbs.enabled": true,
     "breadcrumbs.filePath": "on",
     "breadcrumbs.icons": true,
-    "breadcrumbs.symbolPath": "off",
+    "breadcrumbs.symbolPath": "on",
 
     // diffEditor
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
+
+    // editor
+    "editor.guides.indentation": true,
+    "editor.maxTokenizationLineLength": 200000,
+    "editor.experimental.asyncTokenization": true,
+    "editor.experimental.asyncTokenizationLogging": false,
+    "editor.experimental.asyncTokenizationVerification": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode", // todo
+    "editor.colorDecorators": true,
+    "editor.comments.insertSpace": false, // no space when "commenting out"
+    "editor.fontFamily": "'DejaVu Sans Mono', 'Consolas'", // ZERO vs 0
+    "editor.fontSize": 12,
+    "editor.lineHeight": 0, // 0 sets fontSize + 4
+    "editor.fontWeight": "normal",
+    "editor.fontLigatures": false,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": false,
+    "editor.minimap.enabled": false,
+    "editor.minimap.maxColumn": 100,
+    "editor.minimap.renderCharacters": true,
+    "editor.minimap.scale": 3,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.side": "right",
+    "editor.minimap.size": "proportional",
+    "editor.renderControlCharacters": true,
+    "editor.renderFinalNewline": "on",
+    "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [72, 80, 100],
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 100,
+    "editor.wrappingStrategy": "simple",
+    "editor.wrappingIndent": "deepIndent",
+    "editor.multiCursorModifier": "alt",
+    "editor.suggestSelection": "first",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.matchBrackets": "always",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.autoClosingBrackets": "always",
+    // overwrites themes editor-wide!
+    "editor.tokenColorCustomizations": {
+        // quick-set all color, don't use but find out scope-grouping
+        //"keywords": "#008080",
+        //"functions": "#008080",
+        //"types": "#008080",
+        //"variables": "#008080",
+        //"numbers": "#008080",
+        //"strings": "#008080",
+        //"comments": "#999999",
+
+        // look into textmaterules, more granularity here
+        // https://macromates.com/manual/en/language_grammars
+        // TODO get all textmaterules here, one setting to rule all languages?
+        "textMateRules": [
+        {
+            "name": "Keywords",
+            "scope": ["keyword.control", "keyword.other", "storage.type"],
+            "settings": {
+                //"fontStyle": "bold",
+                //"foreground": "#008080"
+            }
+        },
+        //{
+        //    "name": "Functions",
+        //    "scope": [
+        //        "support.function",
+        //    ],
+        //    "settings": {
+        //        "fontStyle": "",
+        //        "foreground": "",
+        //    }
+        //},
+        //{
+        //    "name": "Types",
+        //    "scope": [
+        //        "meta.type",
+        //        "storage.type",
+        //        "support.type",
+        //    ],
+        //    "settings": {
+        //        "fontStyle": "",
+        //        "foreground": "",
+        //    }
+        //},
+        //{
+        //    "name": "Variables",
+        //    "scope": [
+        //        "variable",
+        //    ],
+        //    "settings": {
+        //        "fontStyle": "",
+        //        "foreground": "",
+        //    }
+        //},
+        {
+            "name": "Make all Strings italic",
+            "scope": ["string"],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Make all comments grey",
+            "scope": ["comment"],
+            "settings": {
+                "foreground": "#999999"
+            }
+        },
+        {
+            /** test*/
+            /* test */
+            // test
+            "name": "Make only doc Comments italic",
+            "scope": ["comment.block.documentation"],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        }
+        ]
+    },
+
+    // explorer
+    "explorer.autoReveal": false,
+    "explorer.openEditors.visible": 9,
+    "explorer.openEditors.minVisible": 0,
+    "explorer.compactFolders": false,
+    "explorer.enableDragAndDrop": false,
+    "explorer.confirmDragAndDrop": true,
+    "explorer.confirmDelete": true,
+    "explorer.confirmPasteNative": true,
+    "explorer.enableUndo": true,
+    "explorer.confirmUndo": "verbose",
+    "explorer.autoOpenDroppedFile": false,
+    "explorer.copyRelativePathSeparator": "auto",
+
+    // extensions
+    "extensions.autoCheckUpdates": true,
+    "extensions.autoUpdate": false,
 
     // files
     "files.autoSave": "off",
@@ -19,131 +163,6 @@
         "**/.settings": true,
         "**/.factorypath": true
     },
-
-    // editor
-    "editor.guides.indentation": true,
-    "editor.maxTokenizationLineLength": 200000,
-    // todo
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.colorDecorators": false,
-    "editor.comments.insertSpace": false, // no space when "commenting out"    d
-    // todo
-    "editor.fontFamily": "Consolas, DejaVu Sans Mono",
-    "editor.fontSize": 12,
-    "editor.lineHeight": 0, // 0 sets fontSize + 4 // todo
-    "editor.fontWeight": "normal",
-    "editor.fontLigatures": false,
-    "editor.formatOnPaste": false,
-    "editor.formatOnSave": false,
-    "editor.formatOnType": false,
-    "editor.minimap.enabled": false,
-    "editor.minimap.maxColumn": 120,
-    "editor.minimap.renderCharacters": true,
-    "editor.minimap.scale": 3,
-    "editor.minimap.showSlider": "always",
-    "editor.minimap.side": "right",
-    "editor.minimap.size": "proportional",
-    "editor.renderControlCharacters": true,
-    "editor.renderFinalNewline": "on",
-    "editor.renderLineHighlight": "all",
-    "editor.renderWhitespace": "boundary",
-    "editor.rulers": [72, 80, 100, 120],
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 100,
-    "editor.multiCursorModifier": "alt",
-    "editor.suggestSelection": "first",
-    "editor.acceptSuggestionOnEnter": "off",
-    "editor.acceptSuggestionOnCommitCharacter": false,
-    "editor.bracketPairColorization.enabled": false,
-    "editor.autoClosingBrackets": "always",
-    // overwrites themes editor-wide!
-    "editor.tokenColorCustomizations": {
-        // quick-set all color, don't use but find out scope-grouping
-        // "keywords": "#008080",
-        // "functions": "#008080",
-        // "types": "#008080",
-        // "variables": "#008080",
-        // "numbers": "#008080",
-        // "strings": "#008080",
-        // "comments": "#999999",
-
-        // look into textmaterules, more granularity here
-        // https://macromates.com/manual/en/language_grammars
-        // TODO get all textmaterules here, one setting to rule all languages?
-        "textMateRules": [
-        {
-            "name": "Keywords",
-            "scope": ["keyword.control", "keyword.other", "storage.type"],
-            "settings": {
-            // "fontStyle": "bold",
-            // "foreground": "#008080"
-            }
-        },
-        // {
-        //     "name": "Functions",
-        //     "scope": [
-        //         "support.function",
-        //     ],
-        //     "settings": {
-        //         "fontStyle": "",
-        //         "foreground": "",
-        //     }
-        // },
-        // {
-        //     "name": "Types",
-        //     "scope": [
-        //         "meta.type",
-        //         "storage.type",
-        //         "support.type",
-        //     ],
-        //     "settings": {
-        //         "fontStyle": "",
-        //         "foreground": "",
-        //     }
-        // },
-        // {
-        //     "name": "Variables",
-        //     "scope": [
-        //         "variable",
-        //     ],
-        //     "settings": {
-        //         "fontStyle": "",
-        //         "foreground": "",
-        //     }
-        // },
-        {
-            "name": "Make all Strings italic",
-            "scope": ["string"],
-            "settings": {
-            "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Make all comments grey",
-            "scope": ["comment"],
-            "settings": {
-            "foreground": "#999999"
-            }
-        },
-        {
-            /** test*/
-            /* test */
-            // test
-            "name": "Make only doc Comments italic",
-            "scope": ["comment.block.documentation"],
-            "settings": {
-            "fontStyle": "italic"
-            }
-        }
-        ]
-    },
-
-    // explorer
-    "explorer.autoReveal": false,
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "explorer.openEditors.visible": 9,
-    "explorer.compactFolders": false,
 
     // git
     "git.enabled": true,
@@ -159,6 +178,12 @@
     "html.format.enable": false,
     "html.autoClosingTags": false,
 
+    // outline
+    "outline.showNamespaces": true,
+
+    // search
+    "search.showLineNumbers": true,
+
     // telemetry
     "telemetry.telemetryLevel": "off",
 
@@ -170,31 +195,35 @@
     "terminal.integrated.fontSize": 11,
     "terminal.integrated.lineHeight": 1,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
-    // TODO check whether %userprofile% works like this
-    //"terminal.external.windowsExec": "%userprofile%\\AppData\\Local\\Programs\\Git\\git-bash.exe",
+    //"terminal.external.windowsExec": "${env:userprofile}\\AppData\\Local\\Programs\\Git\\git-bash.exe",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
         "source": "PowerShell",
         "icon": "terminal-powershell"
         },
         "Command Prompt": {
-        "path": [
-            "${env:windir}\\Sysnative\\cmd.exe",
-            "${env:windir}\\System32\\cmd.exe"
-        ],
-        "args": [],
-        "icon": "terminal-cmd"
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
         },
         "Git Bash": {
-        "source": "Git Bash"
+            "source": "Git Bash"
         }
     },
 
+    // update
+    "update.enableWindowsBackgroundUpdates": true,
+    "update.mode": "start",
+    "update.showReleaseNotes": true,
+
     // window
-    // TODO setting this to native fucks up the context menu on kde/linux!
-    "window.titleBarStyle": "custom",
+    "window.titleBarStyle": "custom", // "native" fucks up the context menu on kde/linux!
     "window.customTitleBarVisibility": "never",
     "window.commandCenter": false,
+    "window.menuBarVisibility": "visible",
     "window.customMenuBarAltFocus": true,
     "window.enableMenuBarMnemonics": true,
     "window.autoDetectColorScheme": false,
@@ -203,6 +232,8 @@
 
     // workbench
     "workbench.enableExperiments": false,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.layoutControl.enabled": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
     "workbench.localHistory.enabled": true,
     "workbench.editor.languageDetection": false,
@@ -222,126 +253,121 @@
         // TODO: do acme76 in system76 colors
         // acme is not complete, set every value explicitly
         "[acme]": {
-        "activityBar.background": "#eaffff",
-        "activityBar.border": "#000000",
-        "activityBar.foreground": "#000000",
-        "activityBarBadge.background": "#8888cc",
-        "activityBarBadge.foreground": "#000000",
+            "activityBar.background": "#eaffff",
+            "activityBar.border": "#000000",
+            "activityBar.foreground": "#000000",
+            "activityBarBadge.background": "#8888cc",
+            "activityBarBadge.foreground": "#000000",
 
-        "badge.background": "#8888cc",
-        "badge.foreground": "#000000",
+            "badge.background": "#8888cc",
+            "badge.foreground": "#000000",
 
-        "button.background": "#eaffff",
-        "button.foreground": "#000000",
+            "button.background": "#eaffff",
+            "button.foreground": "#000000",
 
-        "editor.background": "#ffffea",
-        "editor.foreground": "#000000",
-        "editor.hoverHighlightBackground": "#eeee9e",
-        "editor.inactiveSelectionBackground": "#eeee9e",
-        "editor.selectionBackground": "#eeee9e",
-        "editor.selectionHighlightBackground": "#eeee9e",
+            "editor.background": "#ffffea",
+            "editor.foreground": "#000000",
+            "editor.hoverHighlightBackground": "#eeee9e",
+            "editor.inactiveSelectionBackground": "#eeee9e",
+            "editor.selectionBackground": "#eeee9e",
+            "editor.selectionHighlightBackground": "#eeee9e",
 
-        "editorGroupHeader.tabsBackground": "#eaffff",
-        "editorRuler.foreground": "#999999",
-        "editorWarning.background": "#00000000",
-        "editorWarning.border": "#00000000",
-        "editorWarning.foreground": "#aaaaaa",
-        "editorWhitespace.foreground": "#eeeeee",
+            "editorGroupHeader.tabsBackground": "#eaffff",
+            "editorRuler.foreground": "#999999",
+            "editorWarning.background": "#00000000",
+            "editorWarning.border": "#00000000",
+            "editorWarning.foreground": "#aaaaaa",
+            "editorWhitespace.foreground": "#eeeeee",
 
-        "editorIndentGuide.activeBackground1": "#999999",
-        "editorIndentGuide.background1": "#eeeeee",
+            "editorIndentGuide.activeBackground1": "#999999",
+            "editorIndentGuide.background1": "#eeeeee",
 
-        "minimap.background": "#ffffea",
-        //"minimap.errorHighlight": "#ff0000",
-        //"minimap.findMatchHighlight": "#ff0000",
-        "minimap.selectionHighlight": "#eeee9e88",
-        "minimap.warningHighlight": "#00000000",
-        //"minimapGutter.addedBackground": "#ff0000",
-        //"minimapGutter.deletedBackground": "#ff0000",
-        //"minimapGutter.modifiedBackground": "#ff0000",
-        //"minimapSlider.activeBackground": "#eaffff",
-        //"minimapSlider.background": "#ffffea00",
-        //"minimapSlider.hoverBackground": "#ff0000",
+            "minimap.background": "#ffffea",
+            //"minimap.errorHighlight": "#ff0000",
+            //"minimap.findMatchHighlight": "#ff0000",
+            "minimap.selectionHighlight": "#eeee9e88",
+            "minimap.warningHighlight": "#00000000",
+            //"minimapGutter.addedBackground": "#ff0000",
+            //"minimapGutter.deletedBackground": "#ff0000",
+            //"minimapGutter.modifiedBackground": "#ff0000",
+            //"minimapSlider.activeBackground": "#eaffff",
+            //"minimapSlider.background": "#ffffea00",
+            //"minimapSlider.hoverBackground": "#ff0000",
 
-        "input.background": "#eaffff",
-        "input.border": "#000000",
-        "input.foreground": "#000000",
-        "input.placeholderForeground": "#000000",
+            "input.background": "#eaffff",
+            "input.border": "#000000",
+            "input.foreground": "#000000",
+            "input.placeholderForeground": "#000000",
 
-        "panel.background": "#ffffea",
+            "panel.background": "#ffffea",
 
-        "selection.background": "#eeee9e",
+            "selection.background": "#eeee9e",
 
-        "sideBar.dropBackground": "#99994c",
-        "sideBar.background": "#eaffff",
-        "sideBar.border": "#000000",
-        "sideBar.foreground": "#000000",
+            "sideBar.dropBackground": "#99994c",
+            "sideBar.background": "#eaffff",
+            "sideBar.border": "#000000",
+            "sideBar.foreground": "#000000",
 
-        "sideBarSectionHeader.background": "#eaffff",
+            "sideBarSectionHeader.background": "#eaffff",
 
-        "scrollbar.shadow": "#8888cc",
+            "scrollbar.shadow": "#8888cc",
 
-        // todo
-        "scrollbarSlider.activeBackground": "#8888cc",
-        "scrollbarSlider.background": "#8888cc",
-        "scrollbarSlider.hoverBackground": "#8888cc",
+            // todo
+            "scrollbarSlider.activeBackground": "#8888cc",
+            "scrollbarSlider.background": "#8888cc",
+            "scrollbarSlider.hoverBackground": "#8888cc",
 
-        "statusBar.background": "#eaffff",
-        "statusBar.border": "#000000",
-        "statusBar.foreground": "#000000",
-        "statusBar.debuggingBorder": "#000000",
-        "statusBar.debuggingForeground": "#000000",
-        "statusBar.debuggingBackground": "#eaffff",
-        "statusBar.noFolderBorder": "#000000",
-        "statusBar.noFolderForeground": "#000000",
-        "statusBar.noFolderBackground": "#eaffff",
+            "statusBar.background": "#eaffff",
+            "statusBar.border": "#000000",
+            "statusBar.foreground": "#000000",
+            "statusBar.debuggingBorder": "#000000",
+            "statusBar.debuggingForeground": "#000000",
+            "statusBar.debuggingBackground": "#eaffff",
+            "statusBar.noFolderBorder": "#000000",
+            "statusBar.noFolderForeground": "#000000",
+            "statusBar.noFolderBackground": "#eaffff",
 
-        "tab.activeBackground": "#ffffea",
+            "tab.activeBackground": "#ffffea",
 
-        "tab.activeBorder": "#000000",
-        "tab.activeBorderTop": "#eaffff",
-        "tab.activeForeground": "#000000",
-        "tab.inactiveBackground": "#eaffff",
-        "tab.border": "#eaffff",
-        "tab.hoverBackground": "#eeee9e",
-        "tab.hoverBorder": "#eaffff",
-        "tab.inactiveForeground": "#000000",
+            "tab.activeBorder": "#000000",
+            "tab.activeBorderTop": "#eaffff",
+            "tab.activeForeground": "#000000",
+            "tab.inactiveBackground": "#eaffff",
+            "tab.border": "#eaffff",
+            "tab.hoverBackground": "#eeee9e",
+            "tab.hoverBorder": "#eaffff",
+            "tab.inactiveForeground": "#000000",
 
-        "titleBar.border": "#000000",
-        "titleBar.activeBackground": "#eaffff",
-        "titleBar.inactiveBackground": "#008080"
+            "titleBar.border": "#000000",
+            "titleBar.activeBackground": "#eaffff",
+            "titleBar.inactiveBackground": "#008080"
 
-        // this is my stuff, acme gets overwritten by duplicate rules
-        // TODO: acme76 (pop colors) theme?
-        // TODO: dark and grey themes with teal and matching accents
+            // this is my stuff, acme gets overwritten by duplicate rules
+            // TODO: acme76 (pop colors) theme?
+            // TODO: dark and grey themes with teal and matching accents
 
-        // acme colors
-        // background #ffffea
-        // primary #000000
-        // grey
-        // green #99994c
-        // purple #8888cc
-        // light blue
-        // orange
-        // yellow
-        // red
+            // acme colors
+            // background #ffffea
+            // primary #000000
+            // grey
+            // green #99994c
+            // purple #8888cc
+            // light blue
+            // orange
+            // yellow
+            // red
 
-        // xxxxxx00 full transparency
-        // xxxxxxff no transparency
+            // xxxxxx00 full transparency
+            // xxxxxxff no transparency
         }
     },
-
-    // update
-    "update.enableWindowsBackgroundUpdates": true,
-    "update.mode": "start",
-    "update.showReleaseNotes": true,
 
     // zen
     "zenMode.centerLayout": true,
 
-    // extensions
-    "extensions.autoCheckUpdates": true,
-    "extensions.autoUpdate": false,
+    /**
+        EXTENSIONS
+    */
 
     // better comments
     "better-comments.tags": [
@@ -381,24 +407,7 @@
     // drawio
     "hediet.vscode-drawio.resizeImages": null,
 
-    // TODO NEW STUFF
-
-    // ZERO vs 0
-    "editor.fontFamily": "'Fira Mono', 'Fira Mono Medium', 'monospace', 'monospaced'",
-
-    "outline.showNamespaces": true,
-
-    "editor.matchBrackets": "always",
-    "editor.autoClosingBrackets": "always",
-
-    "editor.wrappingStrategy": "simple",
-    "editor.wrappingIndent": "deepIndent",
-
-    "search.showLineNumbers": true,
-
-    "window.menuBarVisibility": "visible",
-    "workbench.iconTheme": "vs-minimal",
-    "workbench.layoutControl.enabled": false,
-
-    // todo automatically added:
+    /**
+        NEW SETTINGS (AUTOMATICALLY ADDED)
+    */
 }
