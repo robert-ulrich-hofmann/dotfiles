@@ -312,7 +312,7 @@
 
             "scrollbar.shadow": "#8888cc",
 
-            // todo
+            // todo scrollbar
             "scrollbarSlider.activeBackground": "#8888cc",
             "scrollbarSlider.background": "#8888cc",
             "scrollbarSlider.hoverBackground": "#8888cc",
