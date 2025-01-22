@@ -1,1 +1,2 @@
 *.json linguist-language=Text
+*.json linguist-generated
