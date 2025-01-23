@@ -69,70 +69,70 @@
         // https://macromates.com/manual/en/language_grammars
         // TODO get all textmaterules here, one setting to rule all languages?
         "textMateRules": [
-        {
-            "name": "Keywords",
-            "scope": ["keyword.control", "keyword.other", "storage.type"],
-            "settings": {
-                //"fontStyle": "bold",
-                //"foreground": "#008080"
+            {
+                "name": "Keywords",
+                "scope": ["keyword.control", "keyword.other", "storage.type"],
+                "settings": {
+                    //"fontStyle": "bold",
+                    //"foreground": "#008080"
+                }
+            },
+            //{
+            //    "name": "Functions",
+            //    "scope": [
+            //        "support.function",
+            //    ],
+            //    "settings": {
+            //        "fontStyle": "",
+            //        "foreground": "",
+            //    }
+            //},
+            //{
+            //    "name": "Types",
+            //    "scope": [
+            //        "meta.type",
+            //        "storage.type",
+            //        "support.type",
+            //    ],
+            //    "settings": {
+            //        "fontStyle": "",
+            //        "foreground": "",
+            //    }
+            //},
+            //{
+            //    "name": "Variables",
+            //    "scope": [
+            //        "variable",
+            //    ],
+            //    "settings": {
+            //        "fontStyle": "",
+            //        "foreground": "",
+            //    }
+            //},
+            {
+                "name": "Make all Strings italic",
+                "scope": ["string"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "name": "Make all comments grey",
+                "scope": ["comment"],
+                "settings": {
+                    "foreground": "#999999"
+                }
+            },
+            {
+                /** test*/
+                /* test */
+                // test
+                "name": "Make only doc Comments italic",
+                "scope": ["comment.block.documentation"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
             }
-        },
-        //{
-        //    "name": "Functions",
-        //    "scope": [
-        //        "support.function",
-        //    ],
-        //    "settings": {
-        //        "fontStyle": "",
-        //        "foreground": "",
-        //    }
-        //},
-        //{
-        //    "name": "Types",
-        //    "scope": [
-        //        "meta.type",
-        //        "storage.type",
-        //        "support.type",
-        //    ],
-        //    "settings": {
-        //        "fontStyle": "",
-        //        "foreground": "",
-        //    }
-        //},
-        //{
-        //    "name": "Variables",
-        //    "scope": [
-        //        "variable",
-        //    ],
-        //    "settings": {
-        //        "fontStyle": "",
-        //        "foreground": "",
-        //    }
-        //},
-        {
-            "name": "Make all Strings italic",
-            "scope": ["string"],
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Make all comments grey",
-            "scope": ["comment"],
-            "settings": {
-                "foreground": "#999999"
-            }
-        },
-        {
-            /** test*/
-            /* test */
-            // test
-            "name": "Make only doc Comments italic",
-            "scope": ["comment.block.documentation"],
-            "settings": {
-                "fontStyle": "italic"
-            }
-        }
         ]
     },
 
@@ -215,14 +215,11 @@
     //"terminal.external.windowsExec": "${env:userprofile}\\AppData\\Local\\Programs\\Git\\git-bash.exe",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
-        "source": "PowerShell",
-        "icon": "terminal-powershell"
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
         },
         "Command Prompt": {
-            "path": [
-                "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe"
-            ],
+            "path": ["${env:windir}\\Sysnative\\cmd.exe", "${env:windir}\\System32\\cmd.exe"],
             "args": [],
             "icon": "terminal-cmd"
         },
@@ -392,12 +389,14 @@
         "editor.stickyScroll.defaultModel": "foldingProviderModel",
         "editor.suggest.insertMode": "replace"
     },
+
     "[cpp]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
         "editor.semanticHighlighting.enabled": true,
         "editor.stickyScroll.defaultModel": "foldingProviderModel",
         "editor.suggest.insertMode": "replace"
     },
+
     "[dockercompose]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker",
         "editor.insertSpaces": true,
@@ -409,12 +408,14 @@
             "strings": true
         }
     },
+
     "[dockerfile]": {
         "editor.defaultFormatter": "ms-azuretools.vscode-docker",
         "editor.quickSuggestions": {
             "strings": true
         }
     },
+
     "[go]": {
         "editor.defaultFormatter": "golang.go",
         "editor.insertSpaces": false,
@@ -423,49 +424,61 @@
             "source.organizeImports": "explicit"
         }
     },
+
     "[html]": {
         "editor.suggest.insertMode": "replace"
     },
+
     "[java]": {
         "editor.defaultFormatter": "redhat.java"
     },
+
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
+
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
+
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
         "editor.unicodeHighlight.ambiguousCharacters": false,
-        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false
     },
+
     "[python]": {
         "editor.defaultFormatter": "ms-python.python",
         "editor.defaultColorDecorators": "never",
-        "gitlens.codeLens.symbolScopes": [
-            "!Module"
-        ]
+        "gitlens.codeLens.symbolScopes": ["!Module"]
     },
+
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.formatOnSave": true
     },
+
     "[plaintext]": {
         "editor.unicodeHighlight.ambiguousCharacters": false,
-        "editor.unicodeHighlight.invisibleCharacters": false
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.wordBasedSuggestions": "currentDocument"
     },
+
     "[shellscript]": {
         "files.eol": "\n",
         "editor.defaultColorDecorators": "auto"
     },
+
     "[sql]": {},
+
     "[xml]": {},
+
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml",
         "editor.insertSpaces": true,
@@ -504,10 +517,13 @@
             "color": "#FF8C00",
             "strikethrough": false,
             "backgroundColor": "transparent"
-        },
+        }
     ],
     "better-comments.multilineComments": true,
     "better-comments.highlightPlainText": true,
+
+    // drawio
+    "hediet.vscode-drawio.resizeImages": null,
 
     // gitlens
     "gitlens.hovers.currentLine.over": "line",
@@ -522,10 +538,7 @@
     "prettier.enable": true,
     "prettier.printWidth": 100,
     "prettier.useTabs": false,
-    "prettier.tabWidth": 4,
-
-    // drawio
-    "hediet.vscode-drawio.resizeImages": null,
+    "prettier.tabWidth": 4
 
     /**
         NEW SETTINGS (AUTOMATICALLY ADDED)
