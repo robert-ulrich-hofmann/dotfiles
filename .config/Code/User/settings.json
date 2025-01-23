@@ -22,9 +22,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode", // todo
     "editor.colorDecorators": true,
     "editor.comments.insertSpace": false, // no space when "commenting out"
-    "editor.fontFamily": "'DejaVu Sans Mono', 'Consolas'", // ZERO vs 0
+    "editor.fontFamily": "Source Code Pro, Consolas, monospace", // ZERO vs 0 {[]}
     "editor.fontSize": 12,
-    "editor.lineHeight": 0, // 0 sets fontSize + 4
+    "editor.lineHeight": 0, // 0 = auto +4, 1-7 multiple, 8+ = fix
     "editor.fontWeight": "normal",
     "editor.fontLigatures": false,
     "editor.formatOnPaste": false,
@@ -166,12 +166,16 @@
 
     // git
     "git.enabled": true,
+    "git.countBadge": "all",
+    "git.autoRepositoryDetection": "subFolders",
     "git.openRepositoryInParentFolders": "never",
     "git.mergeEditor": false,
     "git.allowForcePush": false,
     "git.allowNoVerifyCommit": false,
     "git.autofetch": false,
+    "git.autofetchPeriod": 180,
     "git.autoStash": false,
+    "git.autorefresh": false,
 
     // languages
     "typescript.updateImportsOnFileMove.enabled": "never",
@@ -190,9 +194,9 @@
     // terminal
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.showExitAlert": true,
-    "terminal.integrated.fontFamily": "Consolas, monospace",
+    "terminal.integrated.fontFamily": "Source Code Pro, Consolas, monospace", // ZERO vs 0 {[]}
     "terminal.integrated.fontWeight": "normal",
-    "terminal.integrated.fontSize": 11,
+    "terminal.integrated.fontSize": 12,
     "terminal.integrated.lineHeight": 1,
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     //"terminal.external.windowsExec": "${env:userprofile}\\AppData\\Local\\Programs\\Git\\git-bash.exe",
