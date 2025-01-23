@@ -19,7 +19,6 @@
     "editor.experimental.asyncTokenization": true,
     "editor.experimental.asyncTokenizationLogging": false,
     "editor.experimental.asyncTokenizationVerification": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode", // todo
     "editor.colorDecorators": true,
     "editor.comments.insertSpace": false, // no space when "commenting out"
     "editor.fontFamily": "Source Code Pro, Consolas, monospace", // ZERO vs 0 {[]}
@@ -28,7 +27,7 @@
     "editor.fontWeight": "normal",
     "editor.fontLigatures": false,
     "editor.formatOnPaste": false,
-    "editor.formatOnSave": true,
+    "editor.formatOnSave": false,
     "editor.formatOnType": false,
     "editor.minimap.enabled": false,
     "editor.minimap.maxColumn": 100,
@@ -50,6 +49,8 @@
     "editor.suggestSelection": "first",
     "editor.acceptSuggestionOnEnter": "off",
     "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.wordBasedSuggestions": "off",
+    "editor.suggest.insertMode": "insert",
     "editor.matchBrackets": "always",
     "editor.bracketPairColorization.enabled": false,
     "editor.autoClosingBrackets": "always",
@@ -382,6 +383,103 @@
     "zenMode.centerLayout": true,
 
     /**
+        LANGUAGES
+    */
+
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.semanticHighlighting.enabled": true,
+        "editor.stickyScroll.defaultModel": "foldingProviderModel",
+        "editor.suggest.insertMode": "replace"
+    },
+    "[dockercompose]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "advanced",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker",
+        "editor.quickSuggestions": {
+            "strings": true
+        }
+    },
+    "[go]": {
+        "editor.defaultFormatter": "golang.go",
+        "editor.insertSpaces": false,
+        "editor.tabSize": 4,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+    "[html]": {
+        "editor.suggest.insertMode": "replace"
+    },
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python",
+        "editor.defaultColorDecorators": "never",
+        "gitlens.codeLens.symbolScopes": [
+            "!Module"
+        ]
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[plaintext]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.unicodeHighlight.invisibleCharacters": false
+    },
+    "[shellscript]": {
+        "files.eol": "\n",
+        "editor.defaultColorDecorators": "auto"
+    },
+    "[sql]": {},
+    "[xml]": {},
+    "[yaml]": {
+        "editor.defaultFormatter": "redhat.vscode-yaml",
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "keep",
+        "editor.defaultColorDecorators": "never",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    },
+
+    /**
         EXTENSIONS
     */
 
@@ -419,6 +517,12 @@
     "gitlens.advanced.messages": {
         "suppressLineUncommittedWarning": true
     },
+
+    // prettier
+    "prettier.enable": true,
+    "prettier.printWidth": 100,
+    "prettier.useTabs": false,
+    "prettier.tabWidth": 4,
 
     // drawio
     "hediet.vscode-drawio.resizeImages": null,
