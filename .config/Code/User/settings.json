@@ -166,6 +166,7 @@
 
     // git
     "git.enabled": true,
+    "git.terminalAuthentication": true,
     "git.countBadge": "all",
     "git.autoRepositoryDetection": "subFolders",
     "git.openRepositoryInParentFolders": "never",
@@ -177,6 +178,9 @@
     "git.autoStash": false,
     "git.autorefresh": false,
 
+    // github
+    "github.gitAuthentication": false,
+
     // languages
     "typescript.updateImportsOnFileMove.enabled": "never",
     "html.format.enable": false,
@@ -187,6 +191,14 @@
 
     // search
     "search.showLineNumbers": true,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "search.followSymlinks": false,
+    "search.ripgrep.maxThreads": 4,
+    "search.useIgnoreFiles": false,
 
     // telemetry
     "telemetry.telemetryLevel": "off",
