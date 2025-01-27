@@ -1,0 +1,54 @@
+MenuBar=Disabled
+
+[$Version]
+update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
+
+[CompactMode]
+PreviewSize=16
+
+[ContentDisplay]
+UsePermissionsFormat=CombinedFormat
+
+[DetailsMode]
+PreviewSize=16
+SidePadding=0
+
+[General]
+EditableUrl=true
+LockPanels=false
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+SplitView=true
+Version=202
+ViewPropsTimestamp=2024,10,8,13,38,20.594
+
+[IconsMode]
+IconSize=64
+PreviewSize=96
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=16
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[PlacesPanel]
+IconSize=16
+
+[PreviewSettings]
+Plugins=evince,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,exe-thumbnailer,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,quithumbnail,rawthumbnail,totem,svgthumbnail,ffmpegthumbs,webp-pixbuf
+
+[Search]
+Location=Everywhere
+
+[Toolbar mainToolBar]
+ToolButtonStyle=IconOnly
+
+[ViewPropertiesDialog]
+1440x960 screen: Height=584
+1440x960 screen: Width=379
