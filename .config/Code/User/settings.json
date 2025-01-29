@@ -1,7 +1,7 @@
 {
     /**
-       VSCODE
-    */
+     * VSCODE
+     */
 
     // breadcrumbs
     "breadcrumbs.enabled": true,
@@ -32,7 +32,7 @@
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "editor.minimap.enabled": false,
+    "editor.minimap.enabled": true,
     "editor.minimap.maxColumn": 80,
     "editor.minimap.renderCharacters": true,
     "editor.minimap.scale": 3,
@@ -184,11 +184,8 @@
 
     // github
     "github.gitAuthentication": false,
-
-    // languages
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    "html.format.enable": false,
-    "html.autoClosingTags": false,
+    "github.gitProtocol": "https",
+    "github.branchProtection": true,
 
     // outline
     "outline.showNamespaces": true,
@@ -396,8 +393,20 @@
     "zenMode.restore": false,
 
     /**
-        LANGUAGES
-    */
+     * LANGUAGES
+     */
+
+    "html.format.enable": false,
+    "html.autoClosingTags": false,
+
+    "javascript.updateImportsOnFileMove.enabled": "never",
+
+    "typescript.updateImportsOnFileMove.enabled": "never",
+
+
+    /**
+     * LANGUAGE OVERRIDES
+     */
 
     "[c]": {
         "editor.defaultFormatter": "ms-vscode.cpptools",
@@ -507,8 +516,8 @@
     },
 
     /**
-        EXTENSIONS
-    */
+     * EXTENSIONS
+     */
 
     // better comments
     "better-comments.highlightPlainText": true,
@@ -559,6 +568,6 @@
     "prettier.tabWidth": 4
 
     /**
-        NEW SETTINGS (AUTOMATICALLY ADDED)
-    */
+     * NEW SETTINGS (AUTOMATICALLY ADDED)
+     */
 }
