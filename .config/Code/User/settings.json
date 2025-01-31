@@ -8,10 +8,13 @@
     "breadcrumbs.filePath": "on",
     "breadcrumbs.icons": true,
     "breadcrumbs.symbolPath": "on",
+    "breadcrumbs.symbolSortOrder": "position",
 
     // diffEditor
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
+    "diffEditor.codeLens": true,
+    "diffEditor.wordWrap": "inherit",
 
     // editor
     "editor.guides.indentation": true,
@@ -181,6 +184,10 @@
     "git.autofetchPeriod": 180,
     "git.autoStash": false,
     "git.autorefresh": true,
+    "git.blame.editorDecoration.enabled": false,
+    "git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDateAgo})",
+    "git.blame.statusBarItem.enabled": true,
+    "git.blame.statusBarItem.template": "\"${subject}\" (Show Diff)",
 
     // github
     "github.gitAuthentication": false,
@@ -192,6 +199,7 @@
 
     // search
     "search.showLineNumbers": true,
+    "search.collapseResults": "alwaysExpand",
     "search.exclude": {
         "**/node_modules": true,
         "**/bower_components": true,
@@ -560,12 +568,16 @@
     "gitlens.advanced.messages": {
         "suppressLineUncommittedWarning": true
     },
+    "gitlens.telemetry.enabled": false,
 
     // prettier
     "prettier.enable": true,
     "prettier.printWidth": 80,
     "prettier.useTabs": false,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+
+    // redhat
+    "redhat.telemetry.enabled": false
 
     /**
      * NEW SETTINGS (AUTOMATICALLY ADDED)
