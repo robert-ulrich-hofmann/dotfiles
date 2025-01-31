@@ -221,13 +221,28 @@
     "terminal.integrated.fontWeight": "normal",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.lineHeight": 1,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    //"terminal.external.windowsExec": "${env:userprofile}\\AppData\\Local\\Programs\\Git\\git-bash.exe",
-    "terminal.integrated.profiles.windows": {
-        "PowerShell": {
-            "source": "PowerShell",
-            "icon": "terminal-powershell"
+    // linux
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "args": [],
+            "icon": "terminal-bash"
         },
+        "fish": {
+            "path": "fish",
+            "args": [],
+            "icon": "terminal-linux"
+        },
+        "tmux": {
+            "path": "tmux",
+            "args": [],
+            "icon": "terminal-tmux"
+        }
+    },
+    // windows
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.profiles.windows": {
         "Command Prompt": {
             "path": [
                 "${env:windir}\\Sysnative\\cmd.exe",
@@ -236,10 +251,18 @@
             "args": [],
             "icon": "terminal-cmd"
         },
+        "PowerShell": {
+            "source": "PowerShell",
+            "args": [],
+            "icon": "terminal-powershell"
+        },
         "Git Bash": {
-            "source": "Git Bash"
+            "source": "Git Bash",
+            "args": [],
+            "icon": "terminal-bash"
         }
     },
+    "terminal.external.windowsExec": "${env:userprofile}\\AppData\\Local\\Programs\\Git\\git-bash.exe",
 
     // update
     "update.enableWindowsBackgroundUpdates": true,
