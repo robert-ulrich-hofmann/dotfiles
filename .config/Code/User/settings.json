@@ -144,8 +144,9 @@
 
     // explorer
     "explorer.autoReveal": false,
-    "explorer.openEditors.visible": 9,
-    "explorer.openEditors.minVisible": 0,
+    "explorer.openEditors.sortOrder": "editorOrder",
+    "explorer.openEditors.visible": 8,
+    "explorer.openEditors.minVisible": 8,
     "explorer.compactFolders": false,
     "explorer.enableDragAndDrop": false,
     "explorer.confirmDragAndDrop": true,
