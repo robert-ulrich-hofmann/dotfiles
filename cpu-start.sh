@@ -35,7 +35,7 @@ fi
 if [[ 1 -eq "$(echo "$1 >= 1.4" | bc)" ]] && [[ 1 -eq "$(echo "$1 <= 4.8" | bc)" ]]
 then
     echo "Valid value for frequency given, using $1GHz"
-    cpupower frequency-set -u $1GHz
+    cpupower frequency-set -u "$1"GHz
     exit 1
 else
     echo "No valid value (1.4GHz - 4.8GHz) for frequency given, using 2.4GHz"
