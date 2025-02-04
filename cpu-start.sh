@@ -28,7 +28,6 @@ if [ -z "$1" ]
 then
     echo "No value for frequency given, using 2.4GHz"
     cpupower frequency-set -u 2.4GHz
-    watch -n 1 cpupower monitor
     exit 1
 fi
 
@@ -37,11 +36,9 @@ if [[ 1 -eq "$(echo "$1 >= 1.4" | bc)" ]] && [[ 1 -eq "$(echo "$1 <= 4.8" | bc)"
 then
     echo "Valid value for frequency given, using $1GHz"
     cpupower frequency-set -u $1GHz
-    watch -n 1 cpupower monitor
     exit 1
 else
     echo "No valid value (1.4GHz - 4.8GHz) for frequency given, using 2.4GHz"
     cpupower frequency-set -u 2.4GHz
-    watch -n 1 cpupower monitor
     exit 1
 fi
