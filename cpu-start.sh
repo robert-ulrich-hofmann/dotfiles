@@ -1,6 +1,8 @@
-#!bin/bash -
+#!/bin/bash -
 
 # this needs sudo or root execution
+# add this to root crontab with this line:
+#@reboot sh /home/robert/cpu-start.sh
 
 # Intel® Core™ Ultra 7 Processor 155H core layout (HT disabled in BIOS!)
 #  0 -  5 performance cores          base 1.4 GHz max 4.8 GHz
@@ -22,7 +24,7 @@ echo 0 > /sys/devices/system/cpu/cpu14/online
 echo 0 > /sys/devices/system/cpu/cpu15/online
 
 # no parameter
-if [ -z $1 ]
+if [ -z "$1" ]
 then
     echo "No value for frequency given, using 2.4GHz"
     cpupower frequency-set -u 2.4GHz
