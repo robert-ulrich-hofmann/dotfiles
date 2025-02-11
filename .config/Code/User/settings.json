@@ -22,6 +22,8 @@
     "editor.experimental.asyncTokenization": true,
     "editor.experimental.asyncTokenizationLogging": false,
     "editor.experimental.asyncTokenizationVerification": false,
+    "editor.experimental.preferTreeSitter": [],
+    "editor.experimental.treeSitterTelemetry": false,
     "editor.colorDecorators": true,
     // no space when "commenting out"
     "editor.comments.insertSpace": false,
@@ -174,17 +176,18 @@
 
     // GIT
     "git.enabled": true,
+    "git.autofetch": false,
+    "git.autofetchPeriod": 180,
+    "git.autoStash": false,
+    "git.autorefresh": true,
     "git.terminalAuthentication": true,
     "git.countBadge": "all",
     "git.autoRepositoryDetection": "subFolders",
     "git.openRepositoryInParentFolders": "never",
-    "git.mergeEditor": false,
     "git.allowForcePush": false,
     "git.allowNoVerifyCommit": false,
-    "git.autofetch": false,
-    "git.autofetchPeriod": 180,
-    "git.autoStash": false,
-    "git.autorefresh": false,
+    "git.openDiffOnClick": true,
+    "git.mergeEditor": false,
     "git.enableStatusBarSync": false,
     "git.blame.editorDecoration.enabled": false,
     "git.blame.editorDecoration.template": "${subject}, ${authorName} (${authorDateAgo})",
@@ -197,7 +200,12 @@
     "github.branchProtection": true,
 
     // OUTLINE
+    "outline.icons": true,
     "outline.showNamespaces": true,
+    "outline.collapseItems": "alwaysCollapse",
+    "outline.problems.enabled": true,
+    "outline.problems.badges": true,
+    "outline.problems.colors": true,
 
     // SEARCH
     "search.showLineNumbers": true,
@@ -438,8 +446,9 @@
 
     "javascript.updateImportsOnFileMove.enabled": "never",
 
-    "typescript.updateImportsOnFileMove.enabled": "never",
+    "python.analysis.reportExtraTelemetry": false,
 
+    "typescript.updateImportsOnFileMove.enabled": "never",
 
     /**
      * LANGUAGE OVERRIDES
@@ -560,6 +569,7 @@
     "better-comments.highlightPlainText": true,
     "better-comments.multilineComments": true,
     "better-comments.tags": [
+        // most languages
         {
             "tag": "TODO",
             "color": "#FF8C00",
