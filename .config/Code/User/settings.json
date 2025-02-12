@@ -176,10 +176,11 @@
 
     // GIT
     "git.enabled": true,
-    "git.autofetch": false,
+    // auto refresh leads to annoying blinking badge every 5 seconds
+    "git.autorefresh": false,
+    "git.autofetch": true,
     "git.autofetchPeriod": 180,
     "git.autoStash": false,
-    "git.autorefresh": true,
     "git.terminalAuthentication": true,
     "git.countBadge": "all",
     "git.autoRepositoryDetection": "subFolders",
@@ -617,8 +618,4 @@
 
     // REDHAT
     "redhat.telemetry.enabled": false
-
-    /**
-     * NEW SETTINGS (AUTOMATICALLY ADDED)
-     */
 }
