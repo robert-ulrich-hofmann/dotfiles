@@ -163,6 +163,7 @@ SetEditor=false
 [MainWindow]
 1440x960 screen: Height=890
 1440x960 screen: Width=1440
+1440x960 screen: Window-Maximized=true
 2880x1920 screen: Window-Maximized=true
 
 [filetree]
