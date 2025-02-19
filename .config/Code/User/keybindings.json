@@ -1,0 +1,8 @@
+[
+    // overwrite shift+delete = copy+delete (cut) line
+    {
+        "key": "shift+delete",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    }
+]
