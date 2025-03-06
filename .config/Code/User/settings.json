@@ -37,7 +37,7 @@
     "editor.formatOnPaste": false,
     "editor.formatOnSave": false,
     "editor.formatOnType": false,
-    "editor.minimap.enabled": true,
+    "editor.minimap.enabled": false,
     "editor.minimap.maxColumn": 80,
     "editor.minimap.renderCharacters": true,
     "editor.minimap.scale": 3,
