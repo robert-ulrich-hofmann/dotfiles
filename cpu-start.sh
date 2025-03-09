@@ -10,24 +10,24 @@
 # 14 - 15 low power efficiency cores base 0.7 GHz max 2.5 GHz
 
 # shut off the 8 efficiency cores
-echo 0 > /sys/devices/system/cpu/cpu6/online
-echo 0 > /sys/devices/system/cpu/cpu7/online
-echo 0 > /sys/devices/system/cpu/cpu8/online
-echo 0 > /sys/devices/system/cpu/cpu9/online
-echo 0 > /sys/devices/system/cpu/cpu10/online
-echo 0 > /sys/devices/system/cpu/cpu11/online
-echo 0 > /sys/devices/system/cpu/cpu12/online
-echo 0 > /sys/devices/system/cpu/cpu13/online
+#echo 0 > /sys/devices/system/cpu/cpu6/online
+#echo 0 > /sys/devices/system/cpu/cpu7/online
+#echo 0 > /sys/devices/system/cpu/cpu8/online
+#echo 0 > /sys/devices/system/cpu/cpu9/online
+#echo 0 > /sys/devices/system/cpu/cpu10/online
+#echo 0 > /sys/devices/system/cpu/cpu11/online
+#echo 0 > /sys/devices/system/cpu/cpu12/online
+#echo 0 > /sys/devices/system/cpu/cpu13/online
 
 # shut off the 2 low power efficiency cores
 echo 0 > /sys/devices/system/cpu/cpu14/online
 echo 0 > /sys/devices/system/cpu/cpu15/online
 
-# no parameter
+# no parameter, using "safe" value (common max turbo across all cores)
 if [ -z "$1" ]
 then
-    echo "No value for frequency given, using 2.4GHz"
-    cpupower frequency-set -u 2.4GHz
+    echo "No value for frequency given, using 2.5GHz"
+    cpupower frequency-set -u 2.5GHz
     exit 1
 fi
 
@@ -38,7 +38,7 @@ then
     cpupower frequency-set -u "$1"GHz
     exit 1
 else
-    echo "No valid value (1.4GHz - 4.8GHz) for frequency given, using 2.4GHz"
-    cpupower frequency-set -u 2.4GHz
+    echo "No valid value (1.4GHz - 4.8GHz) for frequency given, using 2.5GHz"
+    cpupower frequency-set -u 2.5GHz
     exit 1
 fi
