@@ -20,8 +20,11 @@
 #echo 0 > /sys/devices/system/cpu/cpu13/online
 
 # shut off the 2 low power efficiency cores
-echo 0 > /sys/devices/system/cpu/cpu14/online
-echo 0 > /sys/devices/system/cpu/cpu15/online
+#echo 0 > /sys/devices/system/cpu/cpu14/online
+#echo 0 > /sys/devices/system/cpu/cpu15/online
+
+# set cpu governor to performance (available governors are performance and powersave)
+cpupower frequency-set --governor performance
 
 # no parameter, using "safe" value (common max turbo across all cores)
 if [ -z "$1" ]
