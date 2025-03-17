@@ -10,18 +10,18 @@
 # 14 - 15 low power efficiency cores base 0.7 GHz max 2.5 GHz
 
 # shut off the 8 efficiency cores
-#echo 0 > /sys/devices/system/cpu/cpu6/online
-#echo 0 > /sys/devices/system/cpu/cpu7/online
-#echo 0 > /sys/devices/system/cpu/cpu8/online
-#echo 0 > /sys/devices/system/cpu/cpu9/online
-#echo 0 > /sys/devices/system/cpu/cpu10/online
-#echo 0 > /sys/devices/system/cpu/cpu11/online
-#echo 0 > /sys/devices/system/cpu/cpu12/online
-#echo 0 > /sys/devices/system/cpu/cpu13/online
+echo 0 > /sys/devices/system/cpu/cpu6/online
+echo 0 > /sys/devices/system/cpu/cpu7/online
+echo 0 > /sys/devices/system/cpu/cpu8/online
+echo 0 > /sys/devices/system/cpu/cpu9/online
+echo 0 > /sys/devices/system/cpu/cpu10/online
+echo 0 > /sys/devices/system/cpu/cpu11/online
+echo 0 > /sys/devices/system/cpu/cpu12/online
+echo 0 > /sys/devices/system/cpu/cpu13/online
 
 # shut off the 2 low power efficiency cores
-#echo 0 > /sys/devices/system/cpu/cpu14/online
-#echo 0 > /sys/devices/system/cpu/cpu15/online
+echo 0 > /sys/devices/system/cpu/cpu14/online
+echo 0 > /sys/devices/system/cpu/cpu15/online
 
 # set cpu governor to performance (available governors are performance and powersave)
 cpupower frequency-set --governor performance
