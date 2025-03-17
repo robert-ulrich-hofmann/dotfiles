@@ -1,8 +1,9 @@
 #!/bin/bash -
 
-# this needs sudo or root execution
+# this script needs sudo or root execution
+
 # add this to root crontab with this line:
-#@reboot sh /home/robert/cpu-start.sh
+#@reboot sh /home/robert/cpu-start.sh 3.0GHz
 
 # Intel® Core™ Ultra 7 Processor 155H core layout (HT disabled in BIOS!)
 #  0 -  5 performance cores          base 1.4 GHz max 4.8 GHz
@@ -23,7 +24,8 @@ echo 0 > /sys/devices/system/cpu/cpu13/online
 echo 0 > /sys/devices/system/cpu/cpu14/online
 echo 0 > /sys/devices/system/cpu/cpu15/online
 
-# set cpu governor to performance (available governors are performance and powersave)
+# set cpu governor to performance to avoid crippling performance on battery
+# available governors are performance and powersave
 cpupower frequency-set --governor performance
 
 # no parameter, using "safe" value (common max turbo across all cores)
