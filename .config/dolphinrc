@@ -10,7 +10,9 @@ PreviewSize=16
 UsePermissionsFormat=CombinedFormat
 
 [DetailsMode]
+LeftPadding=0
 PreviewSize=16
+RightPadding=0
 SidePadding=0
 
 [General]
@@ -41,6 +43,9 @@ IconSize=16
 
 [PreviewSettings]
 Plugins=evince,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,exe-thumbnailer,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,quithumbnail,rawthumbnail,totem,svgthumbnail,ffmpegthumbs,webp-pixbuf
+
+[Search]
+Location=Everywhere
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
