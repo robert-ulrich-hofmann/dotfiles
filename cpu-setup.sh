@@ -3,7 +3,7 @@
 # this script needs sudo or root execution
 
 # add this to root crontab with this line:
-#@reboot sh /home/robert/cpu-start.sh i j k X.XX
+#@reboot sh /home/robert/cpu-setup.sh i j k X.XX
 
 # Intel® Core™ Ultra 7 Processor 155H core layout (HT disabled in BIOS!)
 #  0 -  5 performance cores          base 1.4 GHz max 4.8 GHz
