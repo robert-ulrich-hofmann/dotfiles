@@ -24,6 +24,9 @@ snaphelperEnabled=true
 [Tiling]
 padding=4
 
+[Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][c3798e79-6c7c-5c96-b020-d50e6bb0aa25]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
