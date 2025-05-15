@@ -9,7 +9,7 @@ test -s ~/.alias && . ~/.alias || true
 export EDITOR=/usr/bin/nano
 # https://no-color.org/
 export NO_COLOR=1
-export STEAM_FORCE_DESKTOPUI_SCALING=2.0
+export STEAM_FORCE_DESKTOPUI_SCALING=1.8
 
 # startup "screen"
 echo

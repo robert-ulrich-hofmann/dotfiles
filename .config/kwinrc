@@ -12,6 +12,9 @@ Rows=1
 [Effect-overview]
 BorderActivate=9
 
+[Effect-shakecursor]
+Magnification=10
+
 [Input]
 TabletMode=off
 
@@ -22,6 +25,7 @@ NightTemperature=6000
 
 [Plugins]
 minimizeallEnabled=true
+shakecursorEnabled=false
 snaphelperEnabled=true
 
 [Tiling]
@@ -40,4 +44,4 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Xwayland]
-Scale=2
+Scale=1.8

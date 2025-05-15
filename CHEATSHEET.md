@@ -16,7 +16,7 @@ Add `media.cubeb.backend` with value `alsa` to avoid jumping volume on applicati
 
 ### setup
 
-0. check hardware virtualization:  grep -E -c '(vmx|svm)' /proc/cpuinfo 
+0. check hardware virtualization:  grep -E -c '(vmx|svm)' /proc/cpuinfo
 1. install tools: zypper install patterns-server-kvm_server patterns-server-kvm_tools
 2. install kvm: zypper install qemu libvirt virt-manager
 3. enable kvm: sudo systemctl enable libvirtd (start on every startup)
@@ -30,6 +30,7 @@ Add `media.cubeb.backend` with value `alsa` to avoid jumping volume on applicati
 ### configuration in Virtual Machine Manager
 
 #### Video Virtio
+
 ```xml
 <video>
   <model type="virtio" heads="1" primary="yes">
@@ -41,10 +42,39 @@ Add `media.cubeb.backend` with value `alsa` to avoid jumping volume on applicati
 ```
 
 #### Display Spice
+
 ```xml
 <graphics type="spice">
   <listen type="none"/>
   <image compression="off"/>
   <gl enable="yes" rendernode="/dev/dri/by-path/pci-0000:00:02.0-render"/>
 </graphics>
+```
+
+## WAYLAND
+
+### Screen sharing
+
+- needs pipewire wireplumber xdg-desktop-portal xdg-desktop-portal-kde6
+- this lets you share any (wayland!) application from kde and flatpak
+- maybe additionally you need xdg-desktop-portal-gtk xdg-desktop-portal-wlr
+- for x11 applications running on xwayland you need to setup <https://invent.kde.org/system/xwaylandvideobridge>
+
+### scaling and dpi considerations
+
+180% goldilocks in between 14/16 and dpi? also 180% has roughly fhd@15.6 dpi. this was used everywhere for almost a decade.
+
+```plaintext
+framework 13.5 2880x1920
+1440x 960   (2.0)   128dpi
+1516x1010   (1.9)   135dpi    14
+1600x1067   (1.8)   142dpi
+1694x1129   (1.7)   150dpi    16
+1800x1200   (1.6)   160dpi
+
+mbp 14.2 3024x1964
+1512x982    (2.0)   127dpi
+
+mbp 16.2 3456x2234
+1728x1117   (2.0)   127dpi
 ```

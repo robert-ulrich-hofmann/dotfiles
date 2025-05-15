@@ -29,7 +29,7 @@
     "editor.comments.insertSpace": false,
     // ZERO vs 0 {[]}
     "editor.fontFamily": "Source Code Pro, Consolas, Courier",
-    "editor.fontSize": 12,
+    "editor.fontSize": 11,
     // 0 = auto +4, 1-7 multiple, 8+ = fix
     "editor.lineHeight": 0,
     "editor.fontWeight": "normal",
@@ -230,7 +230,7 @@
     // ZERO vs 0 {[]}
     "terminal.integrated.fontFamily": "Source Code Pro, Consolas, Courier",
     "terminal.integrated.fontWeight": "normal",
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 11,
     "terminal.integrated.lineHeight": 1,
     // linux
     "terminal.integrated.defaultProfile.linux": "bash",
@@ -290,7 +290,6 @@
     "window.customTitleBarVisibility": "never",
     "window.menuBarVisibility": "visible",
     "window.autoDetectColorScheme": false,
-    "window.zoomLevel": -1,
     "window.zoomPerWindow": false,
     "window.closeWhenEmpty": false,
     "window.openFilesInNewWindow": "on",
