@@ -9,6 +9,9 @@ PreviewSize=16
 [ContentDisplay]
 UsePermissionsFormat=CombinedFormat
 
+[ContextMenu]
+ShowCopyMoveMenu=true
+
 [DetailsMode]
 LeftPadding=0
 PreviewSize=16
@@ -16,17 +19,25 @@ RightPadding=0
 SidePadding=0
 
 [General]
+DoubleClickViewAction=none
 EditableUrl=true
+FilterBar=true
 LockPanels=false
+RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
-SplitView=true
+ShowStatusBar=FullWidth
 Version=202
 ViewPropsTimestamp=2024,10,8,13,38,20.594
 
 [IconsMode]
-IconSize=64
-PreviewSize=96
+IconSize=176
+MaximumTextLines=0
+PreviewSize=176
+TextWidthIndex=0
+
+[InformationPanel]
+showHovered=false
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
@@ -42,7 +53,7 @@ ToolButtonStyle=IconOnly
 IconSize=16
 
 [PreviewSettings]
-Plugins=evince,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,exe-thumbnailer,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,quithumbnail,rawthumbnail,totem,svgthumbnail,ffmpegthumbs,webp-pixbuf
+Plugins=evince,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,exe-thumbnailer,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,opendocumentthumbnail,gsthumbnail,quithumbnail,rawthumbnail,totem,svgthumbnail,ffmpegthumbs,gdk-pixbuf-thumbnailer
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
