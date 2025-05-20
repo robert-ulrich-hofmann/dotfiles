@@ -12,6 +12,9 @@ ShowWindowTitleOnTitleBar=true
 [MainWindow]
 MenuBar=Enabled
 
+[Notification Messages]
+CloseAllEmptyTabs=true
+
 [TabBar]
 CloseTabButton=None
 CloseTabOnMiddleMouseButton=true
