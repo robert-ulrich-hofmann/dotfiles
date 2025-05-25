@@ -78,3 +78,27 @@ mbp 14.2 3024x1964
 mbp 16.2 3456x2234
 1728x1117   (2.0)   127dpi
 ```
+
+### Display Settings KDE
+
+In any case: Allow screen tearing in fullscreen windows for better gaming performance and no drawbacks on the desktop via the .config/kwinrc setting:
+```
+[Compositing]
+AllowTearing=false
+```
+
+#### How to deal with X11 applications
+
+- Option 1: Apply scaling themselves, if they can do that. **No scaling otherwise.** Provide a scaling factor that matches your global scaling (180% = 1.8) for the Xwayland server.
+  ```
+  [Xwayland]
+  Scale=1.8
+  ```
+
+- Option 2: Always Scaled by the system. **Blurry per default.**
+  - Workarounds:
+    - Chrome / Chromium: Go to chrome://flags/ and set "Preferred Ozone platform" flag to "Wayland".
+    - Visual Studio Code / Codium: Pass command line argument on startup `--ozone-platform=wayland`. Sadly, this is not yet possible internally and permanently / allowed via argv.json
+  - Problems:
+    - VLC has no workaround
+    - Steam has no workaround
