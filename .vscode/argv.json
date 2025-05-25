@@ -8,6 +8,7 @@
 {
 	// Use software rendering instead of hardware accelerated rendering.
 	// This can help in cases where you see rendering issues in VS Code.
+    // Same effect: passing this chromium flag "code --disable-gpu"
     // true: code --type=utility
     // false: code --type=gpu-process
 	"disable-hardware-acceleration": false,
