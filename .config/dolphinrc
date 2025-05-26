@@ -3,6 +3,10 @@ MenuBar=Disabled
 [$Version]
 update_info=dolphin_detailsmodesettings.upd:rename-leading-padding,dolphin_detailsmodesettings.upd:move-content-display,dolphin_directorysizemode.upd:convert-directorysizecount-to-directorysizemode
 
+[Baloo KEditCommentDialog]
+1600x1067 screen: Height=252
+1600x1067 screen: Width=276
+
 [CompactMode]
 PreviewSize=16
 
