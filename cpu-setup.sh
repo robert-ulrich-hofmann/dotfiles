@@ -102,9 +102,10 @@ done
 
 # configure cores: governor
 # available governors are performance and powersave
-# performance: slight boost but way worse thermals and battery life
+# performance: slight boost but way worse thermals and battery life in x11
+# performance: slight boost and smoother software cursor in wayland
 echo "Setting cpu governor powersave"
-cpupower frequency-set --governor powersave
+cpupower frequency-set --governor performance
 
 # configures cores: frequency
 # parameter should only be used when between 1.4 and 4.8
