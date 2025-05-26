@@ -82,7 +82,8 @@ mbp 16.2 3456x2234
 ### Display Settings KDE
 
 In any case: Allow screen tearing in fullscreen windows for better gaming performance and no drawbacks on the desktop via the .config/kwinrc setting:
-```
+
+```shell
 [Compositing]
 AllowTearing=false
 ```
@@ -92,7 +93,8 @@ Also: Adaptive Sync: Never!
 #### How to deal with X11 applications
 
 - Option 1: Apply scaling themselves, if they can do that. **No scaling otherwise.** Provide a scaling factor that matches your global scaling (180% = 1.8) for the Xwayland server.
-  ```
+
+  ```shell
   [Xwayland]
   Scale=1.8
   ```
@@ -104,3 +106,16 @@ Also: Adaptive Sync: Never!
   - Problems:
     - VLC has no workaround
     - Steam has no workaround
+
+### Locked out of session
+
+The old KDE / sddm bug where you sometimes are locked out of your running user session still persists.
+
+Sometimes the old way of solving it still works:
+
+- Log in as root
+- `loginctl unlock-session "ID"`
+
+Under Wayland you sometimes also need to restart the display manager after that:
+
+- `systemctl restart sddm.service`
