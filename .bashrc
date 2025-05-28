@@ -9,6 +9,8 @@ test -s ~/.alias && . ~/.alias || true
 export EDITOR=/usr/bin/nano
 # https://no-color.org/
 export NO_COLOR=1
+# on wayland while "scaled by system" or x11
+#export STEAM_FORCE_DESKTOPUI_SCALING=1.8
 
 # startup "screen"
 echo
