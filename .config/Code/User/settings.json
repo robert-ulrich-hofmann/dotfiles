@@ -165,6 +165,7 @@
 
     // FILES
     "files.autoSave": "off",
+    "files.hotExit": "onExitAndWindowClose",
     "files.trimFinalNewlines": false,
     "files.trimTrailingWhitespace": true,
     "files.exclude": {
@@ -294,6 +295,7 @@
     "window.closeWhenEmpty": false,
     "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
+    "window.restoreWindows": "preserve",
 
     // WORKBENCH
     "workbench.enableExperiments": false,

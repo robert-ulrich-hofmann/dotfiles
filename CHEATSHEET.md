@@ -8,6 +8,24 @@ PATH="$(pwd):$PATH"
 
 EDITOR=nano crontab -e
 
+## VSCode
+
+### Restore all windows and open / unsaved editors
+
+You want this:
+
+```json
+"files.hotExit": "onExitAndWindowClose",
+"window.restoreWindows": "preserve",
+```
+
+Default: Only restore last active window and all it's editors. Lose everything else, including unsaved editors in all other windows!
+
+```json
+"files.hotExit": "onExit",
+"window.restoreWindows": "all",
+```
+
 ## FIREFOX
 
 Add `media.cubeb.backend` with value `alsa` to avoid jumping volume on application streams with pulseaudio on pipewire.
