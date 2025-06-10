@@ -601,6 +601,10 @@
     "editorconfig.generateAuto": true,
     "editorconfig.template": "default",
 
+    // ESLINT
+    "eslint.enable": true,
+    "eslint.format.enable": false,
+
     // GITLENS
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
@@ -616,6 +620,7 @@
     "prettier.printWidth": 80,
     "prettier.useTabs": false,
     "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
 
     // REDHAT
     "redhat.telemetry.enabled": false
