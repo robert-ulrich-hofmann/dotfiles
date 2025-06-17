@@ -7,6 +7,8 @@
 test -s ~/.alias && . ~/.alias || true
 
 export EDITOR=/usr/bin/nano
+# https://www.electronjs.org/docs/latest/api/environment-variables#electron_ozone_platform_hint-linux
+export ELECTRON_OZONE_PLATFORM_HINT=auto
 # https://no-color.org/
 export NO_COLOR=1
 # on wayland while "scaled by system" or x11
