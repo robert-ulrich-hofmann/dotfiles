@@ -137,3 +137,18 @@ Sometimes the old way of solving it still works:
 Under Wayland you sometimes also need to restart the display manager after that:
 
 - `systemctl restart sddm.service`
+
+### Changing mouse cursor themes over xwayland / gtk applications
+
+Add 
+
+```
+[Icon Theme]
+Inherits=Breeze_Snow
+```
+
+to these files (or crete them with this content should they not exist)
+
+- `./local/share/icons/default/index.theme`
+- `./icons/default/index.theme`
+- `/usr/share/icons/default/index.theme`
