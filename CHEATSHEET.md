@@ -152,3 +152,9 @@ to these files (or crete them with this content should they not exist)
 - `./local/share/icons/default/index.theme`
 - `./icons/default/index.theme`
 - `/usr/share/icons/default/index.theme`
+
+### Changing mouse cursor size over xwwayland / gtk applications
+
+As of June 2025: No easy fix, no global fix.
+
+See: https://blogs.kde.org/2024/10/09/cursor-size-problems-in-wayland-explained/
