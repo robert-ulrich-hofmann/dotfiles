@@ -18,7 +18,7 @@ TabletMode=off
 [NightColor]
 Active=true
 Mode=Constant
-NightTemperature=6000
+NightTemperature=5500
 
 [Plugins]
 minimizeallEnabled=true
