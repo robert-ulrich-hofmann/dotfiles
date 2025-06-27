@@ -66,6 +66,16 @@ then
     exit 1
 fi
 
+# guard:
+# number not in range of valid frequencies
+if [[ 1 -eq "$(echo "$4 < 1.4" | bc)" ]] &&
+   [[ 1 -eq "$(echo "$4 > 4.8" | bc)" ]]
+then
+    echo "No valid value for frequency given,"\
+         "must be between 1.4 and 4.8"
+    exit 1
+fi
+
 # choose cores
 # shut off unwanted performance cores
 i=$1
@@ -109,15 +119,7 @@ echo "Setting cpu governor powersave"
 cpupower frequency-set --governor powersave
 
 # configures cores: frequency
-# parameter should only be used when between 1.4 and 4.8
-if [[ 1 -eq "$(echo "$4 >= 1.4" | bc)" ]] &&
-   [[ 1 -eq "$(echo "$4 <= 4.8" | bc)" ]]
-then
-    echo "Valid value for frequency given, using $4GHz"
-    cpupower frequency-set -u "$4"GHz
-else
-    echo "No valid value (1.4GHz - 4.8GHz) for frequency given, using 2.5GHz"
-    cpupower frequency-set -u 2.5GHz
-fi
+echo "Setting max CPU frequency $4GHz"
+cpupower frequency-set -u "$4"GHz
 
 exit 0
