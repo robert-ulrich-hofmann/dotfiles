@@ -76,6 +76,18 @@ then
     exit 1
 fi
 
+# configure cores: governor
+# available governors are performance and powersave
+# general: performance WAY worse thermals and battery life
+# X11: slight boost under heavy load
+# Wayland: slight boost under heavy load, smoother software cursor
+echo "Setting cpu governor powersave"
+cpupower frequency-set --governor powersave
+
+# configures cores: frequency
+echo "Setting max CPU frequency $4GHz"
+cpupower frequency-set -u "$4"GHz
+
 # choose cores
 # shut off unwanted performance cores
 i=$1
@@ -109,17 +121,5 @@ do
 
     i=$(( i+1 ))
 done
-
-# configure cores: governor
-# available governors are performance and powersave
-# general: performance WAY worse thermals and battery life
-# X11: slight boost under heavy load
-# Wayland: slight boost under heavy load, smoother software cursor
-echo "Setting cpu governor powersave"
-cpupower frequency-set --governor powersave
-
-# configures cores: frequency
-echo "Setting max CPU frequency $4GHz"
-cpupower frequency-set -u "$4"GHz
 
 exit 0
