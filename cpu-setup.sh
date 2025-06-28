@@ -10,27 +10,6 @@
 #  6 - 13 efficiency cores           base 0.9 GHz max 3.8 GHz
 # 14 - 15 low power efficiency cores base 0.7 GHz max 2.5 GHz
 
-# reset cores
-# performance
-# touching cpu0 always results in a "permission denied" error
-echo 1 > /sys/devices/system/cpu/cpu1/online
-echo 1 > /sys/devices/system/cpu/cpu2/online
-echo 1 > /sys/devices/system/cpu/cpu3/online
-echo 1 > /sys/devices/system/cpu/cpu4/online
-echo 1 > /sys/devices/system/cpu/cpu5/online
-# efficiency
-echo 1 > /sys/devices/system/cpu/cpu6/online
-echo 1 > /sys/devices/system/cpu/cpu7/online
-echo 1 > /sys/devices/system/cpu/cpu8/online
-echo 1 > /sys/devices/system/cpu/cpu9/online
-echo 1 > /sys/devices/system/cpu/cpu10/online
-echo 1 > /sys/devices/system/cpu/cpu11/online
-echo 1 > /sys/devices/system/cpu/cpu12/online
-echo 1 > /sys/devices/system/cpu/cpu13/online
-# low power efficiency
-echo 1 > /sys/devices/system/cpu/cpu14/online
-echo 1 > /sys/devices/system/cpu/cpu15/online
-
 # guards:
 # non existing parameter
 # parameter no natural number
@@ -75,6 +54,27 @@ then
          "must be between 1.4 and 4.8"
     exit 1
 fi
+
+# reset cores
+# performance
+# touching cpu0 always results in a "permission denied" error
+echo 1 > /sys/devices/system/cpu/cpu1/online
+echo 1 > /sys/devices/system/cpu/cpu2/online
+echo 1 > /sys/devices/system/cpu/cpu3/online
+echo 1 > /sys/devices/system/cpu/cpu4/online
+echo 1 > /sys/devices/system/cpu/cpu5/online
+# efficiency
+echo 1 > /sys/devices/system/cpu/cpu6/online
+echo 1 > /sys/devices/system/cpu/cpu7/online
+echo 1 > /sys/devices/system/cpu/cpu8/online
+echo 1 > /sys/devices/system/cpu/cpu9/online
+echo 1 > /sys/devices/system/cpu/cpu10/online
+echo 1 > /sys/devices/system/cpu/cpu11/online
+echo 1 > /sys/devices/system/cpu/cpu12/online
+echo 1 > /sys/devices/system/cpu/cpu13/online
+# low power efficiency
+echo 1 > /sys/devices/system/cpu/cpu14/online
+echo 1 > /sys/devices/system/cpu/cpu15/online
 
 # configure cores: governor
 # available governors are performance and powersave
