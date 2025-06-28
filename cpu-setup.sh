@@ -82,15 +82,19 @@ echo 1 > /sys/devices/system/cpu/cpu15/online
 # X11: slight boost under heavy load
 # Wayland: slight boost under heavy load, smoother software cursor
 echo "Setting cpu governor powersave"
+# sets /sys/devices/system/cpu/cpu[0 - 15]/cpufreq/scaling_governor
 cpupower frequency-set --governor powersave
 
 # configure cores: performance bias
 # "boost-happiness" from 0 (highest performance) to 15 (most power-saving)
 # bias 15 seems fine and leads to way better thermals
+echo "Setting energy_perf_bias to 15"
+# sets /sys/devices/system/cpu/cpu[0 - 15]/power/energy_perf_bias
 cpupower -c all set -b 15
 
 # configures cores: frequency
 echo "Setting max CPU frequency $4GHz"
+# sets /sys/devices/system/cpu/cpu[0 - 15]/cpufreq/scaling_max_freq
 cpupower frequency-set -u "$4"GHz
 
 # choose cores
