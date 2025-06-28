@@ -84,6 +84,11 @@ echo 1 > /sys/devices/system/cpu/cpu15/online
 echo "Setting cpu governor powersave"
 cpupower frequency-set --governor powersave
 
+# configure cores: performance bias
+# "boost-happiness" from 0 (highest performance) to 15 (most power-saving)
+# bias 15 seems fine and leads to way better thermals
+cpupower -c all set -b 15
+
 # configures cores: frequency
 echo "Setting max CPU frequency $4GHz"
 cpupower frequency-set -u "$4"GHz
