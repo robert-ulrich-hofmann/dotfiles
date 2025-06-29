@@ -77,7 +77,7 @@ echo 1 > /sys/devices/system/cpu/cpu14/online
 echo 1 > /sys/devices/system/cpu/cpu15/online
 
 # configure cores: governor
-# available governors are performance and powersave
+# available: performance powersave
 # general: performance WAY worse thermals and battery life
 # X11: slight boost under heavy load
 # Wayland: slight boost under heavy load, smoother software cursor
@@ -85,10 +85,30 @@ echo "Setting cpu governor powersave"
 # sets /sys/devices/system/cpu/cpu[0 - 15]/cpufreq/scaling_governor
 cpupower frequency-set --governor powersave
 
-# configure cores: performance bias
+# configure cores: p-state energy performance preference
+# available: default performance balance_performance balance_power power 
+echo "Setting energy performance preference to \"power\""
+echo "power" > /sys/devices/system/cpu/cpu0/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu1/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu2/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu3/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu4/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu5/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu6/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu7/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu8/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu9/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu10/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu11/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu12/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu13/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu14/cpufreq/energy_performance_preference
+echo "power" > /sys/devices/system/cpu/cpu15/cpufreq/energy_performance_preference
+
+# configure cores: energy performance bias
 # "boost-happiness" from 0 (highest performance) to 15 (most power-saving)
 # bias 15 seems fine and leads to way better thermals
-echo "Setting energy_perf_bias to 15"
+echo "Setting energy performance bias to 15"
 # sets /sys/devices/system/cpu/cpu[0 - 15]/power/energy_perf_bias
 cpupower -c all set -b 15
 
