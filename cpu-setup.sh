@@ -57,7 +57,7 @@ fi
 
 # reset cores
 # performance
-# touching cpu0 always results in a "permission denied" error
+# touching cpu0's online file always results in a "permission denied" error
 echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 echo 1 > /sys/devices/system/cpu/cpu3/online
