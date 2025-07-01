@@ -26,7 +26,6 @@ SidePadding=0
 DoubleClickViewAction=none
 EditableUrl=true
 FilterBar=true
-LockPanels=false
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
