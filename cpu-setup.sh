@@ -58,6 +58,8 @@ fi
 # reset cores
 # performance
 # touching cpu0's online file always results in a "permission denied" error
+# todo refactor as 3 loops (keep readability and separation by context)
+# todo move from redirection to pipe + tee
 echo 1 > /sys/devices/system/cpu/cpu1/online
 echo 1 > /sys/devices/system/cpu/cpu2/online
 echo 1 > /sys/devices/system/cpu/cpu3/online
@@ -86,7 +88,9 @@ echo "Setting cpu governor powersave"
 cpupower frequency-set --governor powersave
 
 # configure cores: p-state energy performance preference
-# available: default performance balance_performance balance_power power 
+# available: default performance balance_performance balance_power power
+# todo this gets overwritten by kde/powerprofilesdemon/upower on user login?
+# todo this gets overwritten by kde desktop switching power profiles?
 echo "Setting energy performance preference to \"power\""
 
 for EPP_PATH
@@ -100,6 +104,7 @@ done
 # bias 15 seems fine and leads to way better thermals
 echo "Setting energy performance bias to 15"
 # sets /sys/devices/system/cpu/cpu[0 - 15]/power/energy_perf_bias
+# todo does this work on startup / persist after user login?
 cpupower -c all set -b 15
 
 # configures cores: frequency
