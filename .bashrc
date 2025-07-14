@@ -1,3 +1,5 @@
+# shellcheck disable=SC2148
+
 # every interactive shell sources .bashrc every time at launch (of the shell)
 # tumbleweed specialty: /etc/profile sources ~/.bashrc
 # -> everything in .bashrc also happens once in every login shell

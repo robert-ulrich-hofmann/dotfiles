@@ -1,3 +1,5 @@
+# shellcheck disable=SC2148
+
 # each time a login shell is started, /etc/profile and .profile are sourced
 # stuff in here should happen once for root and then once for each user on login
 
