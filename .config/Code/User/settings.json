@@ -15,6 +15,9 @@
     "diffEditor.renderSideBySide": false,
     "diffEditor.codeLens": true,
     "diffEditor.wordWrap": "inherit",
+    "diffEditor.diffAlgorithm": "advanced",
+    "diffEditor.maxFileSize": 100,
+    "diffEditor.maxComputationTime": 10000,
 
     // EDITOR
     "editor.guides.indentation": true,
@@ -157,6 +160,7 @@
     "explorer.enableUndo": true,
     "explorer.confirmUndo": "verbose",
     "explorer.autoOpenDroppedFile": false,
+    "explorer.copyPathSeparator": "auto",
     "explorer.copyRelativePathSeparator": "auto",
 
     // EXTENSIONS
@@ -449,6 +453,7 @@
     "javascript.updateImportsOnFileMove.enabled": "never",
 
     "python.analysis.reportExtraTelemetry": false,
+    "python.analysis.autoIndent": true,
 
     "typescript.updateImportsOnFileMove.enabled": "never",
 
