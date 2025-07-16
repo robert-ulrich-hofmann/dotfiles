@@ -21,6 +21,10 @@
 
     // EDITOR
     "editor.guides.indentation": true,
+    "editor.detectIndentation": true,
+    "editor.indentSize": "tabSize",
+    "editor.tabSize": 4,
+    "editor.autoIndent": "full",
     "editor.maxTokenizationLineLength": 200000,
     "editor.experimental.asyncTokenization": true,
     "editor.experimental.asyncTokenizationLogging": false,
