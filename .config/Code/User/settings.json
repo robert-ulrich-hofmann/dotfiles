@@ -166,6 +166,10 @@
     "explorer.autoOpenDroppedFile": false,
     "explorer.copyPathSeparator": "auto",
     "explorer.copyRelativePathSeparator": "auto",
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": true,
+    "explorer.excludeGitIgnore": false,
+    "explorer.expandSingleFolderWorkspaces": true,
 
     // EXTENSIONS
     "extensions.autoCheckUpdates": true,
@@ -608,6 +612,7 @@
 
     // EDITORCONFIG
     "editorconfig.generateAuto": true,
+    "editorconfig.showMenuEntry": true,
     "editorconfig.template": "default",
 
     // ESLINT
