@@ -1,6 +1,7 @@
 #!/bin/bash -
 
 # this script needs sudo or root execution
+# todo exit on non sudo?
 
 # add this to root crontab with this line:
 #@reboot sh /home/robert/cpu-setup.sh i j k X.XX
@@ -90,6 +91,7 @@ cpupower frequency-set --governor powersave
 # configure cores: p-state energy performance preference
 # available: default performance balance_performance balance_power power
 # todo this gets overwritten by kde/powerprofilesdemon/upower on user login?
+# todo this gets overwritten by pulling power cable / going to battery?
 # todo this gets overwritten by kde desktop switching power profiles?
 echo "Setting energy performance preference to \"power\""
 
