@@ -172,6 +172,8 @@
     "explorer.expandSingleFolderWorkspaces": true,
 
     // EXTENSIONS
+    "extensions.allowed": "*",
+    "extensions.verifySignature": true,
     "extensions.autoCheckUpdates": true,
     "extensions.autoUpdate": false,
 
@@ -194,6 +196,7 @@
     "git.autofetch": true,
     "git.autofetchPeriod": 180,
     "git.autoStash": false,
+    "git.confirmSync": true,
     "git.terminalAuthentication": true,
     "git.countBadge": "all",
     "git.autoRepositoryDetection": "subFolders",
@@ -638,4 +641,8 @@
 
     // REDHAT
     "redhat.telemetry.enabled": false
+
+    /**
+     * END OF FILE - everything following was programmatically added
+     */
 }
