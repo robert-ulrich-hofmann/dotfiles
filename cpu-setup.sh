@@ -93,6 +93,8 @@ cpupower frequency-set --governor powersave
 # todo this gets overwritten by kde/powerprofilesdemon/upower on user login?
 # todo this gets overwritten by pulling power cable / going to battery?
 # todo this gets overwritten by kde desktop switching power profiles?
+# todo this gets overwritten by s3 sleep and wake?
+# todo here are the best gains thermal-wise after limiting max frequency
 echo "Setting energy performance preference to \"power\""
 
 for EPP_PATH
