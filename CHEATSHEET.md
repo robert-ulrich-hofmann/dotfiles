@@ -110,7 +110,7 @@ Also: Adaptive Sync: Never!
 
 #### How to deal with X11 applications
 
-- Option 1: Apply scaling themselves, if they can do that. **No scaling otherwise.** Provide a scaling factor that matches your global scaling (180% = 1.8) for the Xwayland server.
+- Option 1: Apply scaling themselves, if they can do that. **No scaling otherwise.** Provide a scaling factor that matches your global scaling (180% = 1.8) for the Xwayland server in .config/kwinrc:
 
   ```shell
   [Xwayland]
