@@ -42,3 +42,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][f18ce12b-2106-508f-9542-e4e6c6fbf75f]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[org.kde.kdecoration2]
+ButtonsOnLeft=M_F
+ButtonsOnRight=IAX
