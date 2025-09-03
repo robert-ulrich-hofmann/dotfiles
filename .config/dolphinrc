@@ -22,10 +22,15 @@ PreviewSize=16
 RightPadding=0
 SidePadding=0
 
+[ExtractDialog]
+1600x1067 screen: Height=540
+1600x1067 screen: Width=1066
+
 [General]
 DoubleClickViewAction=none
 EditableUrl=true
 FilterBar=true
+GlobalViewProps=false
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
@@ -56,7 +61,7 @@ ToolButtonStyle=IconOnly
 IconSize=16
 
 [PreviewSettings]
-Plugins=evince,audiothumbnail,blenderthumbnail,comicbookthumbnail,djvuthumbnail,exe-thumbnailer,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,opendocumentthumbnail,gsthumbnail,quithumbnail,rawthumbnail,totem,svgthumbnail,ffmpegthumbs,gdk-pixbuf-thumbnailer
+Plugins=audiothumbnail,blenderthumbnail,evince,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,totem,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,quithumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,exe-thumbnailer
 
 [Search]
 Location=Everywhere
