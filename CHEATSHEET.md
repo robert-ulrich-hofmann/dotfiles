@@ -30,6 +30,8 @@ Default: Only restore last active window and all it's editors. Lose everything e
 
 Add `media.cubeb.backend` with value `alsa` to avoid jumping volume on application streams with pulseaudio on pipewire.
 
+Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `false`.
+
 ## KVM, QEMU, virt manager on openSUSE Tumbleweed
 
 ### setup
