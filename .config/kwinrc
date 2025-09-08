@@ -44,5 +44,5 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [org.kde.kdecoration2]
-ButtonsOnLeft=M_F
-ButtonsOnRight=IAX
+ButtonsOnLeft=M_BF_
+ButtonsOnRight=_IAX
