@@ -161,12 +161,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1440x960 screen: Height=890
-1440x960 screen: Width=1440
-1440x960 screen: Window-Maximized=true
 1600x1067 screen: Height=754
 1600x1067 screen: Width=784
-2880x1920 screen: Window-Maximized=true
 
 [filetree]
 editShade=183,220,246
