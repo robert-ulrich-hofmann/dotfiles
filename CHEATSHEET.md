@@ -47,6 +47,13 @@ Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `f
 8. firewall add libvirtd to allowed devices: firewall-cmd --permanent --zone=public --add-service=libvirt
 9. firewall apply / restart: firewall-cmd --reload
 
+### Error "Network 'default' is not active" when starting vm
+
+1. Does network default exist? `sudo virsh net-list --all`
+2. Start network default
+    1. once `sudo virsh net-start default`
+    2. from now on `sudo virsh net-autostart default`
+
 ### configuration in Virtual Machine Manager
 
 #### Video Virtio
