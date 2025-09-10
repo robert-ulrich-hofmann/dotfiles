@@ -63,9 +63,6 @@ IconSize=16
 [PreviewSettings]
 Plugins=audiothumbnail,blenderthumbnail,evince,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,totem,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,quithumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,exe-thumbnailer
 
-[Search]
-Location=Everywhere
-
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
 
