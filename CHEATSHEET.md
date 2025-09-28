@@ -32,6 +32,16 @@ Add `media.cubeb.backend` with value `alsa` to avoid jumping volume on applicati
 
 Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `false`.
 
+### Shortcuts to remember
+
+- (Ctrl+L) / Enter adress bar and type `% ` to search all open tabs
+- Ctrl+Shift+T to reopen closed tab
+
+## BTOP
+
+To enable GPU monitoring in user mode: `sudo setcap cap_perfmon=+ep /usr/local/bin/btop`
+This needs the system package `libcap-progs`
+
 ## KVM, QEMU, virt manager on openSUSE Tumbleweed
 
 ### setup
