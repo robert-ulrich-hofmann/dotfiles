@@ -39,8 +39,12 @@ Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `f
 
 ## BTOP
 
-To enable GPU monitoring in user mode: `sudo setcap cap_perfmon=+ep /usr/local/bin/btop`
-This needs the system package `libcap-progs`
+- Install system package `libcap-progs`
+- Enable GPU monitoring in user mode: `sudo setcap cap_perfmon=+ep /usr/local/bin/btop`
+- TODO: This only adds gpu name and clock speed to both cpu (1) and gpu (5) modules. Still missing, compared to btop as superuser:
+  - Package Temperature
+  - Load Percentage
+  - Power Draw (Watts)
 
 ## KVM, QEMU, virt manager on openSUSE Tumbleweed
 
