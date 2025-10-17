@@ -3,6 +3,7 @@
 	email = robert.ulrich.hofmann@gmail.com
 	useConfigOnly = true
 [core]
+	# yes, I am a filthy casual
 	editor = nano
 [init]
 	defaultBranch = master
