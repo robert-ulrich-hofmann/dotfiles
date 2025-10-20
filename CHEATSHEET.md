@@ -8,6 +8,15 @@ PATH="$(pwd):$PATH"
 
 EDITOR=nano crontab -e
 
+## Increase fontsize in tty terminals
+
+On high dpi monitors raw tty views might be too small to read and without provided / providing font files you can not adjust font size on the fly. But you can at least always double the fontsize (once) with `setfont -d`.
+
+## Look at the previous boot's logs from the end
+
+- `journalctl -b -1 -e` might be able to find a reason for unsuspected shutdown / reboot
+- if `last reboot` shows "still running" the system probably crashed
+
 ## VSCode
 
 ### Restore all windows and open / unsaved editors
