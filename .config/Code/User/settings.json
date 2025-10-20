@@ -154,9 +154,11 @@
     // EXPLORER
     "explorer.autoReveal": false,
     "explorer.openEditors.sortOrder": "editorOrder",
-    "explorer.openEditors.visible": 20,
-    "explorer.openEditors.minVisible": 8,
+    "explorer.openEditors.visible": 5,
+    "explorer.openEditors.minVisible": 5,
     "explorer.compactFolders": false,
+    "explorer.fileNesting.enabled": false,
+    "explorer.fileNesting.expand": false,
     "explorer.enableDragAndDrop": false,
     "explorer.confirmDragAndDrop": true,
     "explorer.confirmDelete": true,
