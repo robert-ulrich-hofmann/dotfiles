@@ -17,6 +17,11 @@ On high dpi monitors raw tty views might be too small to read and without provid
 - `journalctl -b -1 -e` might be able to find a reason for unsuspected shutdown / reboot
 - if `last reboot` shows "still running" the system probably crashed
 
+## SDDM (with KWin and Wayland)
+
+- multiple monitors -> both greet and lock screens get seemingly duplicated but have different inputs that get synced, leads to various weird behaviours
+- solution: KDE System Settings / Colors & Themes / Login Screen ->  "Apply Plasma Settings" to copy and overwrite `~/.config/kwinoutputconfig.json` to `/var/lib/sddm/.config/kwinoutputconfig.json` and 
+
 ## VSCode
 
 ### Restore all windows and open / unsaved editors
