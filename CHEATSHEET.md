@@ -23,6 +23,11 @@ On high dpi monitors raw tty views might be too small to read and without provid
 - solution:
   - KDE System Settings / Colors & Themes / Login Screen ->  "Apply Plasma Settings"
   - or manually copy and overwrite `~/.config/kwinoutputconfig.json` to `/var/lib/sddm/.config/kwinoutputconfig.json`
+ 
+## KDE
+
+- most settings are in `~/.config/`
+- some settings, espeically UI (toolbar) configurations are done via KDE's XML-based GUI system, kxmlgui, and are located at `~/.local/share/kxmlgui5`
 
 ## VSCode
 
