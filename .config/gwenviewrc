@@ -1,6 +1,7 @@
 MenuBar=Disabled
 
 [General]
+BackgroundColorMode=DocumentView::Light
 HistoryEnabled=false
 JPEGQuality=100
 LastUsedVersion=210800
