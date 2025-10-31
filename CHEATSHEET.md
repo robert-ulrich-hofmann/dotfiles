@@ -197,6 +197,8 @@ to these files (or crete them with this content should they not exist)
 - `./icons/default/index.theme`
 - `/usr/share/icons/default/index.theme`
 
+See [this commit](https://github.com/robert-ulrich-hofmann/dotfiles/commit/646831979f2a20e69d41414ed17addd9c9d06931) for further details.
+
 ### Changing mouse cursor size over xwwayland / gtk applications
 
 As of June 2025: No easy fix, no global fix.
