@@ -14,7 +14,7 @@ export ELECTRON_OZONE_PLATFORM_HINT=auto
 # https://no-color.org/
 export NO_COLOR=1
 # on wayland while "scaled by system" or x11
-#export STEAM_FORCE_DESKTOPUI_SCALING=1.8
+#export STEAM_FORCE_DESKTOPUI_SCALING=2.0
 
 # startup "screen"
 echo

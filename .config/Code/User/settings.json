@@ -36,6 +36,7 @@
     "editor.comments.insertSpace": false,
     // ZERO vs 0 {[]}
     "editor.fontFamily": "Source Code Pro, Consolas, Courier",
+    // fontsize in pixels
     "editor.fontSize": 11,
     // 0 = auto +4, 1-7 multiple, 8+ = fix
     "editor.lineHeight": 0,
@@ -248,6 +249,7 @@
     // ZERO vs 0 {[]}
     "terminal.integrated.fontFamily": "Source Code Pro, Consolas, Courier",
     "terminal.integrated.fontWeight": "normal",
+    // fontsize in pixels
     "terminal.integrated.fontSize": 11,
     "terminal.integrated.lineHeight": 1,
     // linux
@@ -313,6 +315,8 @@
     "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "preserve",
+    // window.zoomLevel -0.5 = 90%
+    "window.zoomLevel": -0.5,
 
     // WORKBENCH
     "workbench.enableExperiments": false,
@@ -643,8 +647,4 @@
 
     // REDHAT
     "redhat.telemetry.enabled": false
-
-    /**
-     * END OF FILE - everything following was programmatically added
-     */
 }
