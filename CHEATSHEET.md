@@ -29,6 +29,14 @@ On high dpi monitors raw tty views might be too small to read and without provid
 - most settings are in `~/.config/`
 - some settings, espeically UI (toolbar) configurations are done via KDE's XML-based GUI system, kxmlgui, and are located at `~/.local/share/kxmlgui5`
 
+### Decrease delay to show tooltips on hover
+- `kwriteconfig6 --file ~/.config/plasmarc --group PlasmaToolTips --key Delay 1`
+- or: add this to ~/.config/plasmarc:
+  ```
+  [PlasmaToolTips]
+  Delay=1
+  ```
+
 ## VSCode
 
 ### Restore all windows and open / unsaved editors
@@ -124,7 +132,7 @@ Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `f
 
 ### scaling and dpi considerations
 
-180% goldilocks in between 14/16 and dpi? also 180% has roughly fhd@15.6 dpi. this was used everywhere for almost a decade.
+180% goldilocks in between 14/16 and dpi? also 180% has roughly fhd@15.6 dpi. this was used everywhere for almost a decade. Considering dpi: Apple pairs 127dpi MBP with 216-218dpi (= effective 108-109dpi at 200%) Studio / Pro displays.
 
 ```plaintext
 framework 13.5 2880x1920
