@@ -38,6 +38,17 @@ On high dpi monitors raw tty views might be too small to read and without provid
   ```
 - in both cases, the Delay is set in milliseconds
 
+### Krunner
+
+#### Increase font size
+
+- You can override the system wide fontsetting
+- Add this to `~/.config/krunnerrc`
+  ```
+  [General]
+  font=Noto Sans,12,-1,5,50,0,0,0,0,0
+  ```
+
 ## Qt
 
 ### Qfont
