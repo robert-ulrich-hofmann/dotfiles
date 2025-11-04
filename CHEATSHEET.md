@@ -38,6 +38,30 @@ On high dpi monitors raw tty views might be too small to read and without provid
   ```
 - in both cases, the Delay is set in milliseconds
 
+## Qt
+
+### Qfont
+
+- https://code.qt.io/cgit/qt/qtbase.git/tree/src/gui/text/qfont.cpp#n2130
+- example: font=Noto Sans,12,-1,5,50,0,0,0,0,0
+- structure:
+  - Font family
+  - Point size
+  - Pixel size
+  - Style hint
+  - Font weight
+  - Font style
+  - Underline
+  - Strike out
+  - Fixed pitch
+  - Always \e{0}
+  - Capitalization
+  - Letter spacing
+  - Word spacing
+  - Stretch
+  - Style strategy
+  - Font style (omitted when unavailable) 
+
 ## VSCode
 
 ### Restore all windows and open / unsaved editors
