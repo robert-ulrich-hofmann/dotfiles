@@ -49,6 +49,12 @@ On high dpi monitors raw tty views might be too small to read and without provid
   font=Noto Sans,12,-1,5,50,0,0,0,0,0
   ```
 
+#### Change position / size of krunner window
+TODO
+
+#### Dim / Blur rest of screen when opening krunner
+TODO
+
 ## Qt
 
 ### Qfont
