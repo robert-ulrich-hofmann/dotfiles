@@ -29,6 +29,14 @@ On high dpi monitors raw tty views might be too small to read and without provid
 - most settings are in `~/.config/`
 - some settings, espeically UI (toolbar) configurations are done via KDE's XML-based GUI system, kxmlgui, and are located at `~/.local/share/kxmlgui5`
 
+### Decrease delay to show tooltips on hover
+- `kwriteconfig6 --file ~/.config/plasmarc --group PlasmaToolTips --key Delay 1`
+- or: add this to ~/.config/plasmarc:
+  ```
+  [PlasmaToolTips]
+  Delay=1
+  ```
+
 ## VSCode
 
 ### Restore all windows and open / unsaved editors
