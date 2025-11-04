@@ -36,6 +36,7 @@ On high dpi monitors raw tty views might be too small to read and without provid
   [PlasmaToolTips]
   Delay=1
   ```
+- in both cases, the Delay is set in milliseconds
 
 ## VSCode
 
