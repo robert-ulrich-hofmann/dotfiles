@@ -30,7 +30,6 @@ SidePadding=0
 DoubleClickViewAction=none
 EditableUrl=true
 FilterBar=true
-GlobalViewProps=false
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
