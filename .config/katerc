@@ -88,7 +88,7 @@ Color Theme=Breeze Light
 Line Height Multiplier=1
 Show Indentation Lines=true
 Show Whole Bracket Expression=true
-Text Font=Source Code Pro,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font=Source Code Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 Text Font Features=
 Word Wrap Marker=true
 
@@ -165,8 +165,8 @@ SetEditor=false
 [MainWindow]
 1440x960 screen: Height=720
 1440x960 screen: Width=720
-2 screens: Height=720
-2 screens: Width=720
+2 screens: Height=780
+2 screens: Width=780
 
 [filetree]
 editShade=183,220,246
