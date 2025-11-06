@@ -163,8 +163,8 @@ RunPrefix=
 SetEditor=false
 
 [MainWindow]
-1440x960 screen: Height=720
-1440x960 screen: Width=720
+1440x960 screen: Height=780
+1440x960 screen: Width=780
 2 screens: Height=780
 2 screens: Width=780
 
