@@ -8,15 +8,24 @@
 # if .alias exists, source alias else no error
 test -s ~/.alias && . ~/.alias || true
 
+# set preferred visual editor
+export VISUAL=/usr/bin/kate
+
+# set preferred line editor
 export EDITOR=/usr/bin/nano
+
 # https://www.electronjs.org/docs/latest/api/environment-variables#electron_ozone_platform_hint-linux
 export ELECTRON_OZONE_PLATFORM_HINT=auto
+
 # https://no-color.org/
 export NO_COLOR=1
+
 # on wayland while "scaled by system" or x11
 #export STEAM_FORCE_DESKTOPUI_SCALING=2.0
+
 # run QT applications with wayland
 export QT_QPA_PLATFORM=wayland
+
 # force x11 on wayland in QT applications
 #export QT_QPA_PLATFORM=xcb
 
