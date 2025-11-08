@@ -174,14 +174,18 @@ Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `f
 
 ### scaling and dpi considerations
 
-180% goldilocks in between 14/16 and dpi? also 180% has roughly fhd@15.6 dpi. this was used everywhere for almost a decade. Considering dpi: Apple pairs 127dpi MBP with 216-218dpi (= effective 108-109dpi at 200%) Studio / Pro displays.
+180% goldilocks in between 14/16 and dpi? also 180% has roughly fhd@15.6 dpi. this was used everywhere for almost a decade.
+
+200% mbp dpi, everything smaller makes it slightly tiresome and active to read / identify details. Maybe Apple is on to something here...
+
+Considering dpi: Apple pairs 127dpi MBP with 216-218dpi (= effective 108-109dpi at 200%) Studio / Pro displays.
 
 ```plaintext
 framework 13.5 2880x1920
-1440x 960   (2.0)   128dpi
-1516x1010   (1.9)   135dpi    14
+1440x 960   (2.0)   128dpi    mbp dpi
+1516x1010   (1.9)   135dpi    mbp 14 space
 1600x1067   (1.8)   142dpi
-1694x1129   (1.7)   150dpi    16
+1694x1129   (1.7)   150dpi    mbp 16 space
 1800x1200   (1.6)   160dpi
 
 mbp 14.2 3024x1964
