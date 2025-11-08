@@ -307,6 +307,7 @@
     "window.enableMenuBarMnemonics": true,
     // "native" fucks up the context menu on kde/linux!
     "window.titleBarStyle": "custom",
+    "window.doubleClickIconToClose": true,
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}",
     "window.customTitleBarVisibility": "never",
     "window.menuBarVisibility": "visible",
@@ -317,6 +318,7 @@
     "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "preserve",
     "window.zoomLevel": -1,
+    "window.confirmBeforeClose": "always",
 
     // WORKBENCH
     "workbench.enableExperiments": false,
