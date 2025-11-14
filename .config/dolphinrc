@@ -30,6 +30,7 @@ SidePadding=0
 DoubleClickViewAction=none
 EditableUrl=true
 FilterBar=true
+GlobalViewProps=false
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
@@ -60,7 +61,7 @@ ToolButtonStyle=IconOnly
 IconSize=16
 
 [PreviewSettings]
-Plugins=audiothumbnail,blenderthumbnail,evince,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,totem,opendocumentthumbnail,gdk-pixbuf-thumbnailer,gsthumbnail,quithumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,exe-thumbnailer
+Plugins=audiothumbnail,blenderthumbnail,evince,comicbookthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,gsf-office,mobithumbnail,totem,opendocumentthumbnail,gsthumbnail,quithumbnail,rawthumbnail,svgthumbnail,ffmpegthumbs,exe-thumbnailer
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
