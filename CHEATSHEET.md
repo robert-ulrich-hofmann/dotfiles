@@ -20,9 +20,22 @@ On high dpi monitors raw tty views might be too small to read and without provid
 ## SDDM (with KWin and Wayland)
 
 - multiple monitors -> both greet and lock screens get seemingly duplicated but have different inputs that get synced, leads to various weird behaviours
-- solution:
-  - KDE System Settings / Colors & Themes / Login Screen ->  "Apply Plasma Settings"
-  - or manually copy and overwrite `~/.config/kwinoutputconfig.json` to `/var/lib/sddm/.config/kwinoutputconfig.json`
+  - solution:
+    - KDE System Settings / Colors & Themes / Login Screen ->  "Apply Plasma Settings"
+    - or manually copy and overwrite `~/.config/kwinoutputconfig.json` to `/var/lib/sddm/.config/kwinoutputconfig.json`
+- scaling in first login screen:
+  - create `/etc/sddm.conf/hidpi.conf`
+  - add:
+    ```
+    [Wayland]
+    EnableHiDPI=true
+    
+    [X11]
+    EnableHiDPI=true
+        
+    [General]
+    GreeterEnvironment=QT_SCREEN_SCALE_FACTORS=2,QT_FONT_DPI=192
+    ```
  
 ## KDE
 
