@@ -10,6 +10,9 @@
     "breadcrumbs.symbolPath": "on",
     "breadcrumbs.symbolSortOrder": "position",
 
+    // CHAT
+    "chat.commandCenter.enabled": false,
+
     // DIFFEDITOR
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
@@ -307,9 +310,9 @@
     "window.enableMenuBarMnemonics": true,
     // "native" fucks up the context menu on kde/linux!
     "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "auto",
     "window.doubleClickIconToClose": true,
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}",
-    "window.customTitleBarVisibility": "never",
     "window.menuBarVisibility": "visible",
     "window.autoDetectColorScheme": false,
     "window.zoomPerWindow": false,
