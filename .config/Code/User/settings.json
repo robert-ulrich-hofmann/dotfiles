@@ -40,7 +40,7 @@
     // ZERO vs 0 {[]}
     "editor.fontFamily": "Source Code Pro, Consolas, Courier",
     // fontsize in pixels
-    "editor.fontSize": 12,
+    "editor.fontSize": 13,
     // 0 = auto +4, 1-7 multiple, 8+ = fix
     "editor.lineHeight": 0,
     "editor.fontWeight": "normal",
@@ -253,7 +253,7 @@
     "terminal.integrated.fontFamily": "Source Code Pro, Consolas, Courier",
     "terminal.integrated.fontWeight": "normal",
     // fontsize in pixels
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 10,
     "terminal.integrated.lineHeight": 1,
     // linux
     "terminal.integrated.defaultProfile.linux": "bash",
@@ -320,7 +320,6 @@
     "window.openFilesInNewWindow": "on",
     "window.openFoldersInNewWindow": "on",
     "window.restoreWindows": "preserve",
-    "window.zoomLevel": -1,
     "window.confirmBeforeClose": "always",
 
     // WORKBENCH
