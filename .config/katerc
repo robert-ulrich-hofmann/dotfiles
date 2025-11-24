@@ -165,8 +165,10 @@ SetEditor=false
 [MainWindow]
 1440x960 screen: Height=780
 1440x960 screen: Width=780
+1440x960 screen: Window-Maximized=true
 2 screens: Height=780
 2 screens: Width=780
+2 screens: Window-Maximized=true
 
 [filetree]
 editShade=183,220,246
