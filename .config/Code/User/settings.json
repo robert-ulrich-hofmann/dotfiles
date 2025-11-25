@@ -11,6 +11,8 @@
     "breadcrumbs.symbolSortOrder": "position",
 
     // CHAT
+    "chat.disableAIFeatures": true,
+    "chat.agent.enabled": false,
     "chat.commandCenter.enabled": false,
 
     // DIFFEDITOR
@@ -641,6 +643,7 @@
         "suppressLineUncommittedWarning": true
     },
     "gitlens.telemetry.enabled": false,
+    "gitlens.ai.enabled": false,
 
     // PRETTIER
     "prettier.enable": true,
