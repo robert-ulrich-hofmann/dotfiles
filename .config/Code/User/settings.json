@@ -393,7 +393,7 @@
             "input.foreground": "#000000",
             "input.placeholderForeground": "#000000",
 
-            "panel.background": "#ffffea",
+            "panel.background": "#eaffff",
 
             "selection.background": "#eeee9e",
 
@@ -432,6 +432,15 @@
             "tab.hoverBorder": "#eaffff",
             "tab.inactiveForeground": "#000000",
 
+            // todo find terminal header
+            // terminal lives inside panel
+            "terminal.background": "#ffffea",
+
+            //"panelSectionHeader.background": "#eaffff",
+            //"panel.border": "#000000"
+            //"panelSectionHeader.foreground": "#eaffff",
+            //"panel.border": "#eaffff"
+
             "titleBar.border": "#000000",
             "titleBar.activeBackground": "#eaffff",
             "titleBar.inactiveBackground": "#008080"
@@ -439,6 +448,9 @@
             // this is my stuff, acme gets overwritten by duplicate rules
             // TODO: acme76 (pop colors) theme?
             // TODO: dark and grey themes with teal and matching accents
+
+            // todo badges too dark, or change foreground to light?
+            //"badge"
 
             // acme colors
             // background #ffffea
