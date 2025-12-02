@@ -352,8 +352,10 @@
         // todo my dark mode with 90s colors?
         // TODO: do acme76 in system76 colors
         // acme is not complete, set every value explicitly
+        // todo different groupings of workbench and syntax highlighting
+        // todo acme font additional extension? pure retro look, but not recommended for all
         "[acme]": {
-            // todo 2 acme themes: full "pure" yellow, mixed "opinionated" blue
+            // todo 2 acme themes: pure classic colors, modern stepped shades
             "activityBar.background": "#eaffff",
             "activityBar.foreground": "#000000",
             "activityBar.border": "#000000",
@@ -415,11 +417,11 @@
 
             "panel.background": "#eaffff",
 
-            "scrollbar.shadow": "#8888cc",
+            "scrollbar.shadow": "#99994c",
 
             "scrollbarSlider.activeBackground": "#8888cc",
-            "scrollbarSlider.background": "#8888cc",
-            "scrollbarSlider.hoverBackground": "#8888cc",
+            "scrollbarSlider.background": "#99994c",
+            "scrollbarSlider.hoverBackground": "#7a7a3d",
 
             "selection.background": "#eeee9e",
 
@@ -463,20 +465,24 @@
             "titleBar.inactiveBackground": "#008080"
 
             // TODO: dark and grey themes with teal and matching accents
-
+            // original win95 #008080 #006666 #009A9A
+            // softer win95   #55aaaa
             // todo badges too dark, or change foreground to light?
             //"badge"
 
+            // todo acme colors + monochromatic one up and one down
             // acme colors
-            // background #ffffea
-            // primary #000000
+            // background   #ffffea darker #ffff88 lighter #ffffff
+            // primary      #000000
             // grey
-            // green #99994c
-            // purple #8888cc
-            // light blue
-            // orange
-            // yellow
-            // red
+            // green        #99994c darker #7a7a3d lighter #b1b162
+            // purple       #8888cc darker #5858b8 lighter #b8b8e0
+            // blue         #eaffff darker #88ffff lighter #ffffff
+            // yellow       #eeee9e darker #e2e25b lighter #fafae1
+
+            // and also an orange and red that just work with it
+            // orange       #ff8c00 darker
+            // red          #ff0000
         }
     },
 
@@ -626,21 +632,21 @@
         // most languages
         {
             "tag": "TODO",
-            "color": "#FF8C00",
+            "color": "#ff8c00",
             "strikethrough": false,
             "backgroundColor": "transparent"
         },
         // HTML
         {
             "tag": "<!-- TODO",
-            "color": "#FF8C00",
+            "color": "#ff8c00",
             "strikethrough": false,
             "backgroundColor": "transparent"
         },
         // pandoc (Markdown, TeX)
         {
             "tag": "<!--- TODO",
-            "color": "#FF8C00",
+            "color": "#ff8c00",
             "strikethrough": false,
             "backgroundColor": "transparent"
         }
