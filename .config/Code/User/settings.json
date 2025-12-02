@@ -341,15 +341,23 @@
     "workbench.preferredLightColorTheme": "acme",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.layoutControl.type": "menu",
-    // put global color customizations on this level, but it will break everything
+    // color customizations on this level are global (will break every theme)
+    // #xxxxxxyy x=color, optional: y=transparency (00 full to ff none)
     "workbench.colorCustomizations": {
         // TODO: do full, explicit for all keys, theme it and ship it
         // TODO: do acme76 in system76 colors
         // acme is not complete, set every value explicitly
         "[acme]": {
+            // todo two acme themes: full yellow, "modern" blue
             "activityBar.background": "#eaffff",
-            "activityBar.border": "#000000",
             "activityBar.foreground": "#000000",
+            "activityBar.border": "#000000",
+            "activityBar.activeBackground": "#ffffea",
+            "activityBar.activeBorder": "#000000",
+            "activityBar.activeFocusBorder":"#000000",
+            "activityBar.dropBorder":"#000000",
+            "activityBar.inactiveForeground":"#00000066",
+
             "activityBarBadge.background": "#8888cc",
             "activityBarBadge.foreground": "#000000",
 
@@ -376,6 +384,11 @@
             "editorIndentGuide.activeBackground1": "#999999",
             "editorIndentGuide.background1": "#eeeeee",
 
+            "input.background": "#eaffff",
+            "input.border": "#000000",
+            "input.foreground": "#000000",
+            "input.placeholderForeground": "#000000",
+
             "minimap.background": "#ffffea",
             //"minimap.errorHighlight": "#ff0000",
             //"minimap.findMatchHighlight": "#ff0000",
@@ -388,12 +401,13 @@
             //"minimapSlider.background": "#ffffea00",
             //"minimapSlider.hoverBackground": "#ff0000",
 
-            "input.background": "#eaffff",
-            "input.border": "#000000",
-            "input.foreground": "#000000",
-            "input.placeholderForeground": "#000000",
-
             "panel.background": "#eaffff",
+
+            "scrollbar.shadow": "#8888cc",
+
+            "scrollbarSlider.activeBackground": "#8888cc",
+            "scrollbarSlider.background": "#8888cc",
+            "scrollbarSlider.hoverBackground": "#8888cc",
 
             "selection.background": "#eeee9e",
 
@@ -403,13 +417,6 @@
             "sideBar.foreground": "#000000",
 
             "sideBarSectionHeader.background": "#eaffff",
-
-            "scrollbar.shadow": "#8888cc",
-
-            // todo scrollbar
-            "scrollbarSlider.activeBackground": "#8888cc",
-            "scrollbarSlider.background": "#8888cc",
-            "scrollbarSlider.hoverBackground": "#8888cc",
 
             "statusBar.background": "#eaffff",
             "statusBar.border": "#000000",
@@ -432,7 +439,6 @@
             "tab.hoverBorder": "#eaffff",
             "tab.inactiveForeground": "#000000",
 
-            // todo find terminal header
             // terminal lives inside panel
             "terminal.background": "#ffffea",
 
@@ -445,8 +451,6 @@
             "titleBar.activeBackground": "#eaffff",
             "titleBar.inactiveBackground": "#008080"
 
-            // this is my stuff, acme gets overwritten by duplicate rules
-            // TODO: acme76 (pop colors) theme?
             // TODO: dark and grey themes with teal and matching accents
 
             // todo badges too dark, or change foreground to light?
@@ -462,9 +466,6 @@
             // orange
             // yellow
             // red
-
-            // xxxxxx00 full transparency
-            // xxxxxxff no transparency
         }
     },
 
