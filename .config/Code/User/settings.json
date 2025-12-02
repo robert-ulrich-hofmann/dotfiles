@@ -335,9 +335,10 @@
     "workbench.startupEditor": "newUntitledFile",
     "workbench.settings.openDefaultKeybindings": true,
     "workbench.editor.tabActionCloseVisibility": false,
-    "workbench.colorTheme": "acme",
     "workbench.settings.editor": "json",
     "workbench.editor.closeEmptyGroups": true,
+    // todo is this name taken in marketplace?
+    "workbench.colorTheme": "acme",
     "workbench.preferredLightColorTheme": "acme",
     "workbench.preferredDarkColorTheme": "Default Dark+",
     "workbench.layoutControl.type": "menu",
@@ -345,18 +346,22 @@
     // #xxxxxxyy x=color, optional: y=transparency (00 full to ff none)
     "workbench.colorCustomizations": {
         // TODO: do full, explicit for all keys, theme it and ship it
+        // and then delete all customizations here and use your own theme :)
+        // todo dark mode acme?
+        // todo dark mode for every theme? double mode in all themes?
+        // todo my dark mode with 90s colors?
         // TODO: do acme76 in system76 colors
         // acme is not complete, set every value explicitly
         "[acme]": {
-            // todo two acme themes: full yellow, "modern" blue
+            // todo 2 acme themes: full "pure" yellow, mixed "opinionated" blue
             "activityBar.background": "#eaffff",
             "activityBar.foreground": "#000000",
             "activityBar.border": "#000000",
-            "activityBar.activeBackground": "#ffffea",
+            "activityBar.activeBackground": "#eaffff",
             "activityBar.activeBorder": "#000000",
-            "activityBar.activeFocusBorder":"#000000",
-            "activityBar.dropBorder":"#000000",
-            "activityBar.inactiveForeground":"#00000066",
+            "activityBar.activeFocusBorder": "#000000",
+            "activityBar.dropBorder": "#000000",
+            "activityBar.inactiveForeground": "#00000066",
 
             "activityBarBadge.background": "#8888cc",
             "activityBarBadge.foreground": "#000000",
@@ -366,6 +371,12 @@
 
             "button.background": "#eaffff",
             "button.foreground": "#000000",
+            "button.border": "#000000",
+            "button.hoverBackground": "#ffffea",
+            "button.secondaryBackground": "#eaffff",
+            "button.secondaryForeground": "#000000",
+            "button.secondaryHoverBackground": "#ffffea",
+            "button.separator": "#00000066",
 
             "editor.background": "#ffffea",
             "editor.foreground": "#000000",
@@ -375,6 +386,7 @@
             "editor.selectionHighlightBackground": "#eeee9e",
 
             "editorGroupHeader.tabsBackground": "#eaffff",
+            // todo test with transparency
             "editorRuler.foreground": "#999999",
             "editorWarning.background": "#00000000",
             "editorWarning.border": "#00000000",
@@ -429,7 +441,6 @@
             "statusBar.noFolderBackground": "#eaffff",
 
             "tab.activeBackground": "#ffffea",
-
             "tab.activeBorder": "#000000",
             "tab.activeBorderTop": "#eaffff",
             "tab.activeForeground": "#000000",
