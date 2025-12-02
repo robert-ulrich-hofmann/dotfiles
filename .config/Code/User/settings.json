@@ -790,6 +790,7 @@
             "input.placeholderForeground": "#000000",
 
             // todo abc-get of settings ended here, go on with inputOption
+            // todo but the gains in the details are epic
 
             "minimap.background": "#ffffea",
             //"minimap.errorHighlight": "#ff0000",
@@ -922,7 +923,7 @@
     "zenMode.restore": false,
 
     /**
-     * LANGUAGES
+     * LANGUAGE SETTINGS
      */
 
     "html.format.enable": false,
@@ -936,7 +937,7 @@
     "typescript.updateImportsOnFileMove.enabled": "never",
 
     /**
-     * LANGUAGE OVERRIDES
+     * LANGUAGE-SPECIFIC OVERRIDES
      */
 
     "[c]": {
