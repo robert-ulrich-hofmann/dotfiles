@@ -310,12 +310,13 @@
     "window.commandCenter": false,
     "window.customMenuBarAltFocus": true,
     "window.enableMenuBarMnemonics": true,
-    // "native" fucks up the context menu on kde/linux!
+    // titleBarStyle + menuStyle = "native" fucks up the context menu on kde
     "window.titleBarStyle": "custom",
+    "window.menuStyle": "custom",
+    "window.menuBarVisibility": "classic",
     "window.customTitleBarVisibility": "auto",
     "window.doubleClickIconToClose": true,
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${profileName}${separator}${appName}",
-    "window.menuBarVisibility": "visible",
     "window.autoDetectColorScheme": false,
     "window.zoomPerWindow": false,
     "window.closeWhenEmpty": false,
