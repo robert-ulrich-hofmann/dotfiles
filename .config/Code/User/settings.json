@@ -785,13 +785,72 @@
 
             //"errorForeground": "#000000",
 
+            //"inlineChat.background": "#000000",
+            //"inlineChat.border": "#000000",
+            //"inlineChat.foreground": "#000000",
+            //"inlineChat.shadow": "#000000",
+
+            //"inlineChatDiff.inserted": "#000000",
+            //"inlineChatDiff.removed": "#000000",
+
+            //"inlineChatInput.background": "#000000",
+            //"inlineChatInput.border": "#000000",
+            //"inlineChatInput.focusBorder": "#000000",
+            //"inlineChatInput.placeholderForeground": "#000000",
+
+            //"inlineEdit.gutterIndicator.background": "#000000",
+            //"inlineEdit.gutterIndicator.primaryBackground": "#000000",
+            //"inlineEdit.gutterIndicator.primaryBorder": "#000000",
+            //"inlineEdit.gutterIndicator.primaryForeground": "#000000",
+            //"inlineEdit.gutterIndicator.secondaryBackground": "#000000",
+            //"inlineEdit.gutterIndicator.secondaryBorder": "#000000",
+            //"inlineEdit.gutterIndicator.secondaryForeground": "#000000",
+            //"inlineEdit.gutterIndicator.successfulBackground": "#000000",
+            //"inlineEdit.gutterIndicator.successfulBorder": "#000000",
+            //"inlineEdit.gutterIndicator.successfulForeground": "#000000",
+            //"inlineEdit.modifiedBackground": "#000000",
+            //"inlineEdit.modifiedBorder": "#000000",
+            //"inlineEdit.modifiedChangedLineBackground": "#000000",
+            //"inlineEdit.modifiedChangedTextBackground": "#000000",
+            //"inlineEdit.originalBackground": "#000000",
+            //"inlineEdit.originalBorder": "#000000",
+            //"inlineEdit.originalChangedLineBackground": "#000000",
+            //"inlineEdit.originalChangedTextBackground": "#000000",
+            //"inlineEdit.tabWillAcceptModifiedBorder": "#000000",
+            //"inlineEdit.tabWillAcceptOriginalBorder": "#000000",
+
             "input.background": "#eaffff",
             "input.border": "#000000",
             "input.foreground": "#000000",
             "input.placeholderForeground": "#000000",
 
-            // todo abc-get of settings ended here, go on with inputOption
-            // todo but the gains in the details are epic
+            //"inputOption.activeBackground": "#000000",
+            //"inputOption.activeBorder": "#000000",
+            //"inputOption.activeForeground": "#000000",
+            //"inputOption.hoverBackground": "#000000",
+
+            //"inputValidation.errorBackground": "#000000",
+            //"inputValidation.errorBorder": "#000000",
+            //"inputValidation.errorForeground": "#000000",
+            //"inputValidation.infoBackground": "#000000",
+            //"inputValidation.infoBorder": "#000000",
+            //"inputValidation.infoForeground": "#000000",
+            //"inputValidation.warningBackground": "#000000",
+            //"inputValidation.warningBorder": "#000000",
+            //"inputValidation.warningForeground": "#000000",
+
+            //"interactive.activeCodeBorder": "#000000",
+            //"interactive.inactiveCodeBorder": "#000000",
+
+            //"keybindingLabel.background": "#000000",
+            //"keybindingLabel.border": "#000000",
+            //"keybindingLabel.bottomBorder": "#000000",
+            //"keybindingLabel.foreground": "#000000",
+
+            //"keybindingTable.headerBackground": "#000000",
+            //"keybindingTable.rowsBackground": "#000000",
+
+            // todo list
 
             "minimap.background": "#ffffea",
             //"minimap.errorHighlight": "#ff0000",
@@ -831,7 +890,7 @@
             "scrollbar.shadow": "#99994c",
             //"scrollbar.background": "#000000",
 
-            "scrollbarSlider.activeBackground": "#8888cc",
+            "scrollbarSlider.activeBackground": "#7a7a3d",
             "scrollbarSlider.background": "#99994c",
             "scrollbarSlider.hoverBackground": "#7a7a3d",
 
@@ -887,9 +946,24 @@
             // terminal lives inside panel
             "terminal.background": "#ffffea",
 
+            // this has no effect with window.titleBarStyle = native
             "titleBar.border": "#000000",
+            // todo this mirrors my kde breeze titlebar settings, maybe don't include in acme theme but always customize this here?
+            //"titleBar.activeBackground": "#475057",
+            //"titleBar.activeForeground": "#fcfcfc",
+            //"titleBar.inactiveBackground": "#eff0f1",
+            //"titleBar.inactiveForeground": "#bdc3c7",
             "titleBar.activeBackground": "#eaffff",
-            "titleBar.inactiveBackground": "#008080"
+            "titleBar.activeForeground": "#000000",
+            "titleBar.inactiveBackground": "#eaffff",
+            "titleBar.inactiveForeground": "#000000",
+
+            //"widget.border": "#000000",
+            //"widget.shadow": "#000000",
+
+            // needs custom title bar style and custom or hidden window controls
+            //"window.activeBorder": "#000000",
+            //"window.inactiveBorder": "#000000",
 
             // TODO: dark and grey themes with teal and matching accents
             // original win95 #008080 #006666 #009A9A
