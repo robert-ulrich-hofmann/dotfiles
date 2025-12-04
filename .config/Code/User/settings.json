@@ -75,6 +75,7 @@
     "editor.matchBrackets": "always",
     "editor.bracketPairColorization.enabled": false,
     "editor.autoClosingBrackets": "always",
+    "editor.aiStats.enabled": false,
     // overwrites themes editor-wide!
     "editor.tokenColorCustomizations": {
         // quick-set all color, don't use but find out scope-grouping
