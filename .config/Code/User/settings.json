@@ -1081,6 +1081,7 @@
             "scrollbarSlider.background": "#99994c",
             "scrollbarSlider.hoverBackground": "#7a7a3d",
 
+            // todo make sure that there are three colors for three states: touching with cursor, doubleclick/marking multiple characters, search result from search
             //"search.resultsInfoForeground": "#000000",
 
             //"searchEditor.findMatchBackground" "#000000",
