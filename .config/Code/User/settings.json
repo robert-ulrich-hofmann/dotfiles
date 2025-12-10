@@ -45,6 +45,7 @@
     "editor.fontSize": 13,
     // 0 = auto +4, 1-7 multiple, 8+ = fix
     "editor.lineHeight": 0,
+    // 400 = "normal", 700 = "bold"
     "editor.fontWeight": "normal",
     "editor.fontLigatures": false,
     "editor.formatOnPaste": false,
