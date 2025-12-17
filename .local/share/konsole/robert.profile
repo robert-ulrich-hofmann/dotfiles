@@ -1,5 +1,5 @@
 [Appearance]
-Font=Source Code Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Font=Source Code Pro,11,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
 
 [General]
 LocalTabTitleFormat=%u@%h: %D %n
