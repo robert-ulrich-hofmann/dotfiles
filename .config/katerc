@@ -17,6 +17,7 @@ Mouse forward button action=0
 Open New Tab To The Right Of Current=false
 Output History Limit=100
 Output With Date=false
+PinnedDocuments=
 Recent File List Entry Count=10
 Restore Window Configuration=true
 SDI Mode=false
