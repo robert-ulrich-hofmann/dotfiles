@@ -195,17 +195,58 @@ Considering dpi: Apple pairs 127dpi MBP with 216-218dpi (= effective 108-109dpi 
 
 ```plaintext
 framework 13.5 2880x1920
-1440x 960   (2.0)   128dpi    mbp dpi
-1516x1010   (1.9)   135dpi    mbp 14 space
-1600x1067   (1.8)   142dpi
-1694x1129   (1.7)   150dpi    mbp 16 space
-1800x1200   (1.6)   160dpi
+1440x 960   (2.00)   128dpi    mbp dpi
+1477x 985   (1.95)   132dpi    
+1516x1011   (1.90)   135dpi    mbp 14 space
+1557x1038   (1.85)   139dpi    
+1600x1067   (1.80)   142dpi
+1646x1097   (1.75)   147dpi
+1694x1130   (1.70)   151dpi    mbp 16 space
+
+framework 16.0 2560x1600
+1280x 800   (2.00)    94dpi
+1313x 821   (1.95)    97dpi
+1347x 842   (1.90)    99dpi
+1384x 865   (1.85)   102dpi
+1422x 889   (1.80)   105dpi
+1463x 914   (1.75)   108dpi
+1506x 941   (1.70)   111dpi    mbp 14 space
+1552x 970   (1.65)   114dpi
+1600x1000   (1.60)   118dpi
+1652x1032   (1.55)   122dpi
+1707x1067   (1.50)   126dpi    mbp dpi + mbp 16 space
+1766x1103   (1.45)   130dpi
+1829x1143   (1.40)   135dpi
+1896x1185   (1.35)   140dpi
+1969x1231   (1.30)   145dpi
 
 mbp 14.2 3024x1964
-1512x982    (2.0)   127dpi
+1512x982    (2.00)   127dpi
 
 mbp 16.2 3456x2234
-1728x1117   (2.0)   127dpi
+1728x1117   (2.00)   127dpi
+```
+
+```plaintext
+generic 16.0 2560x1600
+1280x 820   (2.00)    94dpi    standard monitor dpi (94-98)
+1313x 821   (1.95)    97dpi
+1347x 842   (1.90)    99dpi
+1384x 865   (1.85)   102dpi
+1422x 889   (1.80)   105dpi
+1463x 914   (1.75)   108dpi
+
+ASUS ProArt PA348CGV 34.0 3440x1440
+2991x1252   (1.15)    95dpi
+3127x1309   (1.10)   100dpi
+3276x1371   (1.05)   105dpi
+3440x1440   (1.00)   110dpi
+
+Eizo FlexScan S2134 21.3 1600x1200
+1600x1200   (1.00)    94dpi 
+
+apple pro display
+3013x1692   (2.00)   108dpi
 ```
 
 ### Display Settings KDE
