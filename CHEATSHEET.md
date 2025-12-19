@@ -229,7 +229,7 @@ mbp 16.2 3456x2234
 
 ```plaintext
 generic 16.0 2560x1600
-1280x 820   (2.00)    94dpi    standard monitor dpi (94-98)
+1280x 800   (2.00)    94dpi    standard monitor dpi (94-98)
 1313x 821   (1.95)    97dpi
 1347x 842   (1.90)    99dpi
 1384x 865   (1.85)   102dpi
