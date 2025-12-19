@@ -139,8 +139,7 @@ Speedbar Width=140
 View Style=DetailTree
 
 [KScreen]
-ScaleFactor=1.8
-ScreenScaleFactors=eDP-1=1.7;
+ScaleFactor=2
 XwaylandClientsScale=false
 
 [PreviewSettings]
