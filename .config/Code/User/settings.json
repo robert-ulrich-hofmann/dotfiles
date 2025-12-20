@@ -300,6 +300,10 @@
             "icon": "terminal-bash"
         }
     },
+    // make "ctrl+b" to toggle sidebar visibility work in terminal focus
+    "terminal.integrated.commandsToSkipShell": [
+        "workbench.action.toggleSidebarVisibility"
+    ],
     "terminal.external.windowsExec": "${env:userprofile}\\AppData\\Local\\Programs\\Git\\git-bash.exe",
 
     // UPDATE
