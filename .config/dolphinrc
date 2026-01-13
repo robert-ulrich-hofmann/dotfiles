@@ -30,13 +30,12 @@ SidePadding=0
 DoubleClickViewAction=none
 EditableUrl=true
 FilterBar=true
-GlobalViewProps=false
 RememberOpenedTabs=false
 ShowFullPath=true
 ShowFullPathInTitlebar=true
 ShowStatusBar=FullWidth
 Version=202
-ViewPropsTimestamp=2024,10,8,13,38,20.594
+ViewPropsTimestamp=2025,12,18,13,38,10.137
 
 [IconsMode]
 IconSize=176
@@ -65,7 +64,3 @@ Plugins=audiothumbnail,blenderthumbnail,evince,comicbookthumbnail,djvuthumbnail,
 
 [Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
-
-[ViewPropertiesDialog]
-1440x960 screen: Height=584
-1440x960 screen: Width=379
