@@ -42,7 +42,7 @@
     // ZERO vs 0 {[]}
     "editor.fontFamily": "Source Code Pro, Consolas, Courier",
     // fontsize in pixels
-    "editor.fontSize": 12,
+    "editor.fontSize": 11,
     // 0 = auto +4, 1-7 multiple, 8+ = fix
     "editor.lineHeight": 0,
     // 400 = "normal", 700 = "bold"
@@ -257,7 +257,7 @@
     "terminal.integrated.fontFamily": "Source Code Pro, Consolas, Courier",
     "terminal.integrated.fontWeight": "normal",
     // fontsize in pixels
-    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.fontSize": 11,
     "terminal.integrated.lineHeight": 1,
     // linux
     "terminal.integrated.defaultProfile.linux": "bash",
