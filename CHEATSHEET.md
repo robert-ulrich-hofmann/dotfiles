@@ -195,7 +195,7 @@ Considering dpi: Apple pairs 127dpi MBP with 216-218dpi (= effective 108-109dpi 
 
 ```plaintext
 framework 13.5 2880x1920
-1440x 960   (2.00)   128dpi    mbp dpi
+1440x 960   (2.00)   128dpi    mac dpi (127)
 1477x 985   (1.95)   132dpi    
 1516x1011   (1.90)   135dpi    mbp 14 space
 1557x1038   (1.85)   139dpi    
@@ -214,7 +214,7 @@ framework 16.0 2560x1600
 1552x 970   (1.65)   114dpi
 1600x1000   (1.60)   118dpi
 1652x1032   (1.55)   122dpi
-1707x1067   (1.50)   126dpi    mbp dpi + mbp 16 space
+1707x1067   (1.50)   126dpi    mac dpi (127) + mbp 16 space
 1766x1103   (1.45)   130dpi
 1829x1143   (1.40)   135dpi
 1896x1185   (1.35)   140dpi
@@ -234,16 +234,16 @@ generic 16.0 2560x1600
 1347x 842   (1.90)    99dpi
 1384x 865   (1.85)   102dpi
 1422x 889   (1.80)   105dpi
-1463x 914   (1.75)   108dpi
+1463x 914   (1.75)   108dpi    apple display dpi (108)
 
 ASUS ProArt PA348CGV 34.0 3440x1440
-2991x1252   (1.15)    95dpi
+2991x1252   (1.15)    95dpi    standard monitor dpi (94-98)
 3127x1309   (1.10)   100dpi
 3276x1371   (1.05)   105dpi
-3440x1440   (1.00)   110dpi
+3440x1440   (1.00)   110dpi    apple display dpi (108)
 
 Eizo FlexScan S2134 21.3 1600x1200
-1600x1200   (1.00)    94dpi 
+1600x1200   (1.00)    94dpi    standard monitor dpi (94-98)
 
 apple pro display
 3013x1692   (2.00)   108dpi
