@@ -18,6 +18,3 @@ CloseTabButton=None
 CloseTabOnMiddleMouseButton=false
 NewTabButton=true
 TabBarVisibility=AlwaysShowTabBar
-
-[UiSettings]
-ColorScheme=
