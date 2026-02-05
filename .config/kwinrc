@@ -18,9 +18,12 @@ Mode=Constant
 NightTemperature=5000
 
 [Plugins]
+loginEnabled=false
+logoutEnabled=false
 minimizeallEnabled=true
 shakecursorEnabled=false
 snaphelperEnabled=true
+windowapertureEnabled=false
 
 [Tiling]
 padding=4
