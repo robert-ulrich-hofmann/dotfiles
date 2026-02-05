@@ -95,8 +95,8 @@ cpupower frequency-set --governor powersave
 # todo this gets overwritten by kde desktop switching power profiles?
 # todo this gets overwritten by s3 sleep and wake?
 # todo here are the best gains thermal-wise after limiting max frequency
+# todo epp vs epb in modern systems? both? do they have to be pegged together?
 echo "Setting energy performance preference to \"power\""
-
 for EPP_PATH
 in /sys/devices/system/cpu/cpu*/cpufreq/energy_performance_preference
 do
