@@ -17,4 +17,4 @@ CloseAllEmptyTabs=true
 CloseTabButton=None
 CloseTabOnMiddleMouseButton=false
 NewTabButton=true
-TabBarVisibility=AlwaysShowTabBar
+TabBarVisibility=AlwaysHideTabBar
