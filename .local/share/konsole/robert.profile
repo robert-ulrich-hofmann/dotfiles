@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=Linux
-Font=Source Code Pro,11,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
+Font=Source Code Pro,10,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light
 
 [General]
 LocalTabTitleFormat=%u@%h: %D %n
