@@ -1360,6 +1360,8 @@
 
     "[markdown]": {
         "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.indentSize": "tabSize",
+        "editor.tabSize": 2,
         "editor.unicodeHighlight.ambiguousCharacters": false,
         "editor.unicodeHighlight.invisibleCharacters": false
     },
