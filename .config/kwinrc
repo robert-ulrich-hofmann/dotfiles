@@ -25,9 +25,6 @@ shakecursorEnabled=false
 snaphelperEnabled=true
 windowapertureEnabled=false
 
-[Tiling]
-padding=4
-
 [Tiling][58ca410b-ce44-58d6-82b9-fefe44aba0e3]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
@@ -35,12 +32,14 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9d7f7acd-2ed2-4dcf-b322-594c362f0859][b352dee3-5765-46a3-ad46-7c6516c38d51]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9d7f7acd-2ed2-4dcf-b322-594c362f0859][bd47b97d-7b74-4a53-9f63-c00564b32329]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][9d7f7acd-2ed2-4dcf-b322-594c362f0859][e97ea643-6e74-4a77-966d-5d79e8278b63]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][c3798e79-6c7c-5c96-b020-d50e6bb0aa25]
