@@ -249,6 +249,18 @@ apple pro display
 3013x1692   (2.00)   108dpi
 ```
 
+### Thunderbolt 4, Display Bandwidth
+
+<!--- TODO
+-->
+
+- cables
+- docks
+- mst = multi stream transport (multiple displays over one cable)
+- dsc compression
+- 8 bit vs 10 bit, how to force 8/10 bit in wayland / kde, "prefer efficency" in kde and problems with night light,
+- how to calculate raw bandwidth, formulas, how to reduce with each compression
+
 ### Display Settings KDE
 
 In any case: Allow screen tearing in fullscreen windows for better gaming performance and no drawbacks on the desktop via the .config/kwinrc setting:
