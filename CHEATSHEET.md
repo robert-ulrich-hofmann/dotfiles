@@ -41,6 +41,7 @@ On high dpi monitors raw tty views might be too small to read and without provid
 
 - most settings are in `~/.config/`
 - some settings, espeically UI (toolbar) configurations are done via KDE's XML-based GUI system, kxmlgui, and are located at `~/.local/share/kxmlgui5`
+- since Plasma 6 most settings are still handled via `kxmlgui5` allthough some might be duplicated in and overwritten by (...) or properly have been moved to the replacement-but-not-really `kf6-kxmlgui`
 
 ### Decrease delay to show tooltips on hover
 - `kwriteconfig6 --file ~/.config/plasmarc --group PlasmaToolTips --key Delay 1`
