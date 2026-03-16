@@ -26,4 +26,5 @@ IsVisible ViewMode=true
 SideBarSplitterSizes=234,1205
 
 [ThumbnailView]
+AutoplayVideos=true
 WrapAfterLast=false
