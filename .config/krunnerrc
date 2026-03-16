@@ -8,7 +8,7 @@ migrated=true
 [Plugins]
 baloosearchEnabled=false
 browserhistoryEnabled=false
-browsertabsEnabled=false
+browsertabsEnabled=true
 helprunnerEnabled=true
 kdevelopsessionsEnabled=false
 krunner_appstreamEnabled=false
