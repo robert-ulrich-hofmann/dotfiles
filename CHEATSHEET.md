@@ -130,6 +130,9 @@ Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `f
   - Package Temperature
   - Load Percentage
   - Power Draw (Watts)
+- monitor issues:
+  - https://github.com/aristocratos/btop/issues/1283
+  - https://github.com/aristocratos/btop/issues/1040
 
 ## KVM, QEMU, virt manager on openSUSE Tumbleweed
 
