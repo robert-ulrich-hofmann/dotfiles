@@ -117,6 +117,8 @@ Add `media.cubeb.backend` with value `alsa` to avoid jumping volume on applicati
 
 Disable resource hogging bullshit sandbox: Set `media.rdd-process.enabled` to `false`.
 
+Wayland fractional scaling is enabled per default. It does work and look **good enough** if you need it. But if you are using all displays where Firefox should be displayed at even integer scaling (e.g. 200%) it looks noticably better if you set `widget.wayland.fractional-scale.enabled` to `false`.
+
 ### Shortcuts to remember
 
 - (Ctrl+L) / Enter adress bar and type `% ` to search all open tabs
