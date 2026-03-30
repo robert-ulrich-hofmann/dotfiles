@@ -77,6 +77,7 @@
     "editor.bracketPairColorization.enabled": false,
     "editor.autoClosingBrackets": "always",
     "editor.aiStats.enabled": false,
+    "editor.semanticHighlighting.enabled": false,
     // overwrites themes editor-wide!
     "editor.tokenColorCustomizations": {
         // quick-set all color, don't use but find out scope-grouping
@@ -348,7 +349,7 @@
     // todo is this name taken in marketplace?
     "workbench.colorTheme": "acme",
     "workbench.preferredLightColorTheme": "acme",
-    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "workbench.preferredDarkColorTheme": "Dark+",
     "workbench.layoutControl.type": "menu",
     // color customizations on this level are global (will break every theme)
     // #xxxxxxyy x=color, optional: y=transparency (00 full to ff none)
