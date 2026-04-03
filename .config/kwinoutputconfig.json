@@ -14,7 +14,7 @@
                 ],
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
-                "brightness": 0.6,
+                "brightness": 0.35,
                 "colorPowerTradeoff": "PreferAccuracy",
                 "colorProfileSource": "EDID",
                 "connectorName": "eDP-1",
@@ -182,7 +182,6 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
-                "maxBitsPerColor": 0,
                 "mode": {
                     "height": 1600,
                     "refreshRate": 120008,
@@ -214,7 +213,7 @@
                 "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "sRGB",
+                "colorProfileSource": "EDID",
                 "connectorName": "DP-2",
                 "detectedDdcCi": true,
                 "edidHash": "27c1f5d76da00f140c335db74a0c62bd",
@@ -222,6 +221,7 @@
                 "edrPolicy": "always",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
+                "maxBitsPerColor": 0,
                 "mode": {
                     "height": 1600,
                     "refreshRate": 120008,
@@ -231,7 +231,7 @@
                 "rgbRange": "Automatic",
                 "scale": 2,
                 "sdrBrightness": 408,
-                "sdrGamutWideness": 0,
+                "sdrGamutWideness": 1,
                 "sharpness": 0,
                 "transform": "Normal",
                 "uuid": "769370fa-b799-4b14-bd6a-213aaf16593f",
@@ -278,8 +278,8 @@
                 "wideColorGamut": false
             },
             {
-                "allowDdcCi": true,
-                "allowSdrSoftwareBrightness": false,
+                "allowDdcCi": false,
+                "allowSdrSoftwareBrightness": true,
                 "autoBrightnessCurve": [
                     0,
                     0,
@@ -292,8 +292,8 @@
                 "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "sRGB",
-                "connectorName": "DP-6",
+                "colorProfileSource": "EDID",
+                "connectorName": "DP-12",
                 "detectedDdcCi": true,
                 "edidHash": "914745ead2bf402f0c98c663e32aaecb",
                 "edidIdentifier": "RTK 257 16843009 0 2025 0",
@@ -311,7 +311,7 @@
                 "rgbRange": "Automatic",
                 "scale": 2,
                 "sdrBrightness": 200,
-                "sdrGamutWideness": 0,
+                "sdrGamutWideness": 1,
                 "sharpness": 0,
                 "transform": "Normal",
                 "uuid": "1e004951-00b4-4be8-acd6-7cd2a8b17794",
@@ -412,8 +412,8 @@
                 "automaticBrightness": false,
                 "brightness": 1,
                 "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "sRGB",
-                "connectorName": "DP-10",
+                "colorProfileSource": "EDID",
+                "connectorName": "DP-11",
                 "detectedDdcCi": false,
                 "edidHash": "cada3342eae46118d55bc87089f4bf42",
                 "edidIdentifier": "RTK 257 16843009 0 2025 0",
@@ -431,10 +431,91 @@
                 "rgbRange": "Automatic",
                 "scale": 2,
                 "sdrBrightness": 408,
-                "sdrGamutWideness": 0,
+                "sdrGamutWideness": 1,
                 "sharpness": 0,
                 "transform": "Normal",
                 "uuid": "2be05b47-4fb8-45d9-974f-bd8b77507b0f",
+                "vrrPolicy": "Never",
+                "wideColorGamut": false
+            },
+            {
+                "allowDdcCi": true,
+                "allowSdrSoftwareBrightness": true,
+                "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "autoRotation": "InTabletMode",
+                "automaticBrightness": false,
+                "brightness": 1,
+                "colorPowerTradeoff": "PreferAccuracy",
+                "colorProfileSource": "EDID",
+                "connectorName": "DP-11",
+                "detectedDdcCi": false,
+                "edidHash": "d507f51f9dd2e2e04c4818f4407341e2",
+                "edidIdentifier": "RTK 257 16843009 0 2025 0",
+                "edrPolicy": "always",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "maxBitsPerColor": 0,
+                "mode": {
+                    "height": 1600,
+                    "refreshRate": 120008,
+                    "width": 2560
+                },
+                "mstPath": "-4-4\u0000",
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 2,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 1,
+                "sharpness": 0,
+                "transform": "Normal",
+                "uuid": "7d5179ea-2c08-41dd-a461-7fdfa9e458be",
+                "vrrPolicy": "Never",
+                "wideColorGamut": false
+            },
+            {
+                "allowDdcCi": true,
+                "allowSdrSoftwareBrightness": false,
+                "autoBrightnessCurve": [
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "autoRotation": "InTabletMode",
+                "automaticBrightness": false,
+                "brightness": 1,
+                "colorPowerTradeoff": "PreferAccuracy",
+                "colorProfileSource": "EDID",
+                "connectorName": "DP-2",
+                "detectedDdcCi": true,
+                "edidHash": "914745ead2bf402f0c98c663e32aaecb",
+                "edidIdentifier": "RTK 257 16843009 0 2025 0",
+                "edrPolicy": "always",
+                "highDynamicRange": false,
+                "iccProfilePath": "",
+                "maxBitsPerColor": 0,
+                "mode": {
+                    "height": 1600,
+                    "refreshRate": 120008,
+                    "width": 2560
+                },
+                "overscan": 0,
+                "rgbRange": "Automatic",
+                "scale": 2,
+                "sdrBrightness": 200,
+                "sdrGamutWideness": 1,
+                "sharpness": 0,
+                "transform": "Normal",
+                "uuid": "9a374f5b-4558-4ddc-b725-4536c6a1b4cf",
                 "vrrPolicy": "Never",
                 "wideColorGamut": false
             }
@@ -1631,6 +1712,156 @@
                         "outputIndex": 11,
                         "position": {
                             "x": 2560,
+                            "y": 0
+                        },
+                        "priority": 4,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": true,
+                "outputs": [
+                    {
+                        "enabled": false,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 1120,
+                            "y": 800
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 11,
+                        "position": {
+                            "x": 2560,
+                            "y": 0
+                        },
+                        "priority": 3,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 8,
+                        "position": {
+                            "x": 1280,
+                            "y": 0
+                        },
+                        "priority": 4,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 6,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 800
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 8,
+                        "position": {
+                            "x": 160,
+                            "y": 0
+                        },
+                        "priority": 2,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 12,
+                        "position": {
+                            "x": 1440,
+                            "y": 0
+                        },
+                        "priority": 3,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 12,
+                        "position": {
+                            "x": 1440,
+                            "y": 0
+                        },
+                        "priority": 2,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": false,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 1280,
+                            "y": 800
+                        },
+                        "priority": 1,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 12,
+                        "position": {
+                            "x": 2560,
+                            "y": 0
+                        },
+                        "priority": 3,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 8,
+                        "position": {
+                            "x": 1280,
+                            "y": 0
+                        },
+                        "priority": 2,
+                        "replicationSource": ""
+                    },
+                    {
+                        "enabled": true,
+                        "outputIndex": 13,
+                        "position": {
+                            "x": 0,
                             "y": 0
                         },
                         "priority": 4,
