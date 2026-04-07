@@ -21,7 +21,7 @@
                 "detectedDdcCi": false,
                 "edidHash": "0d458741b3ba3fa80204d982f29362c2",
                 "edidIdentifier": "BOE 3252 0 52 2023 0",
-                "edrPolicy": "always",
+                "edrPolicy": "never",
                 "highDynamicRange": false,
                 "iccProfilePath": "",
                 "maxBitsPerColor": 0,
@@ -31,136 +31,14 @@
                     "width": 2880
                 },
                 "overscan": 0,
-                "rgbRange": "Automatic",
+                "rgbRange": "Full",
                 "scale": 2,
                 "sdrBrightness": 200,
                 "sdrGamutWideness": 1,
                 "sharpness": 0,
                 "transform": "Normal",
-                "uuid": "117287a4-ce6e-44ae-8b90-7c68aa91d778",
-                "vrrPolicy": "Never",
-                "wideColorGamut": false
-            },
-            {
-                "allowDdcCi": true,
-                "allowSdrSoftwareBrightness": true,
-                "autoBrightnessCurve": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "autoRotation": "InTabletMode",
-                "automaticBrightness": false,
-                "brightness": 1,
-                "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "EDID",
-                "connectorName": "DP-9",
-                "detectedDdcCi": false,
-                "edidHash": "d507f51f9dd2e2e04c4818f4407341e2",
-                "edidIdentifier": "RTK 257 16843009 0 2025 0",
-                "edrPolicy": "always",
-                "highDynamicRange": false,
-                "iccProfilePath": "",
-                "maxBitsPerColor": 0,
-                "mode": {
-                    "height": 1600,
-                    "refreshRate": 120008,
-                    "width": 2560
-                },
-                "mstPath": "-4-4\u0000",
-                "overscan": 0,
-                "rgbRange": "Automatic",
-                "scale": 2,
-                "sdrBrightness": 200,
-                "sdrGamutWideness": 1,
-                "sharpness": 0,
-                "transform": "Normal",
-                "uuid": "5a70313c-8b50-4f6a-a81d-fc7f093fcfb4",
-                "vrrPolicy": "Never",
-                "wideColorGamut": false
-            },
-            {
-                "allowDdcCi": true,
-                "allowSdrSoftwareBrightness": true,
-                "autoBrightnessCurve": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "autoRotation": "InTabletMode",
-                "automaticBrightness": false,
-                "brightness": 1,
-                "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "EDID",
-                "connectorName": "DP-10",
-                "detectedDdcCi": true,
-                "edidHash": "914745ead2bf402f0c98c663e32aaecb",
-                "edidIdentifier": "RTK 257 16843009 0 2025 0",
-                "edrPolicy": "always",
-                "highDynamicRange": false,
-                "iccProfilePath": "",
-                "maxBitsPerColor": 0,
-                "mode": {
-                    "height": 1600,
-                    "refreshRate": 120008,
-                    "width": 2560
-                },
-                "mstPath": "-1-1\u0000",
-                "overscan": 0,
-                "rgbRange": "Automatic",
-                "scale": 2,
-                "sdrBrightness": 200,
-                "sdrGamutWideness": 1,
-                "sharpness": 0,
-                "transform": "Normal",
-                "uuid": "9c1b1310-16d3-4244-b1d9-108f394bd276",
-                "vrrPolicy": "Never",
-                "wideColorGamut": false
-            },
-            {
-                "allowDdcCi": true,
-                "allowSdrSoftwareBrightness": false,
-                "autoBrightnessCurve": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
-                ],
-                "autoRotation": "InTabletMode",
-                "automaticBrightness": false,
-                "brightness": 1,
-                "colorPowerTradeoff": "PreferAccuracy",
-                "colorProfileSource": "EDID",
-                "connectorName": "DP-2",
-                "detectedDdcCi": true,
-                "edidHash": "914745ead2bf402f0c98c663e32aaecb",
-                "edidIdentifier": "RTK 257 16843009 0 2025 0",
-                "edrPolicy": "always",
-                "highDynamicRange": false,
-                "iccProfilePath": "",
-                "maxBitsPerColor": 0,
-                "mode": {
-                    "height": 1600,
-                    "refreshRate": 120008,
-                    "width": 2560
-                },
-                "overscan": 0,
-                "rgbRange": "Automatic",
-                "scale": 2,
-                "sdrBrightness": 200,
-                "sdrGamutWideness": 1,
-                "sharpness": 0,
-                "transform": "Normal",
-                "uuid": "beb32041-a7a1-4e5b-8af3-abd64b27eeaf",
-                "vrrPolicy": "Never",
+                "uuid": "c5fcfae9-cb4d-4daa-9d2d-89b635e441d3",
+                "vrrPolicy": "Automatic",
                 "wideColorGamut": false
             }
         ],
@@ -179,51 +57,6 @@
                             "y": 0
                         },
                         "priority": 1,
-                        "replicationSource": ""
-                    }
-                ]
-            },
-            {
-                "lidClosed": false,
-                "outputs": [
-                    {
-                        "enabled": true,
-                        "outputIndex": 0,
-                        "position": {
-                            "x": 1200,
-                            "y": 800
-                        },
-                        "priority": 1,
-                        "replicationSource": ""
-                    },
-                    {
-                        "enabled": true,
-                        "outputIndex": 1,
-                        "position": {
-                            "x": 2560,
-                            "y": 0
-                        },
-                        "priority": 4,
-                        "replicationSource": ""
-                    },
-                    {
-                        "enabled": true,
-                        "outputIndex": 2,
-                        "position": {
-                            "x": 1280,
-                            "y": 0
-                        },
-                        "priority": 3,
-                        "replicationSource": ""
-                    },
-                    {
-                        "enabled": true,
-                        "outputIndex": 3,
-                        "position": {
-                            "x": 0,
-                            "y": 0
-                        },
-                        "priority": 2,
                         "replicationSource": ""
                     }
                 ]
