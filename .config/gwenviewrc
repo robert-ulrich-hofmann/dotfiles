@@ -12,7 +12,7 @@ ThumbnailBarOrientation=Vertical
 [ImageView]
 EnlargeSmallerImages=true
 MouseWheelBehavior=MouseWheelBehavior::Zoom
-ThumbnailSplitterSizes=966,238
+ThumbnailSplitterSizes=935,277
 
 [MainWindow]
 MenuBar=Disabled
@@ -23,7 +23,7 @@ Gwenview_Volume=1
 [SideBar]
 InformationSplitterSizes=220,255
 IsVisible ViewMode=true
-SideBarSplitterSizes=234,1205
+SideBarSplitterSizes=226,1213
 
 [ThumbnailView]
 AutoplayVideos=true
