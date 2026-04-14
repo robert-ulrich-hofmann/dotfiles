@@ -314,7 +314,7 @@
 
     // WINDOW
     // window.zoomLevel = +/- 20% per 1 unit
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -0.25,
     "window.commandCenter": false,
     "window.customMenuBarAltFocus": true,
     "window.enableMenuBarMnemonics": true,
