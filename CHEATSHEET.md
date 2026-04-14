@@ -69,6 +69,9 @@ TODO
 #### Dim / Blur rest of screen when opening krunner
 TODO
 
+### Dolphin
+Remember to use `CTRL + i` to filter in this place, results are instant (as opposed to `CTRL + f` to activate a serach that may go way deeper.
+
 ## Qt
 
 ### Qfont
