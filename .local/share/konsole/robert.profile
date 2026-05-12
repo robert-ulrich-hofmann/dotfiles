@@ -1,4 +1,5 @@
 [Appearance]
+AntiAliasFonts=true
 ColorScheme=Linux
 Font=Source Code Pro,10,-1,5,300,0,0,0,0,0,0,0,0,0,0,1,Light,0,0
 
@@ -10,8 +11,9 @@ LocalTabTitleFormat=%u@%h: %D %n
 Name=robert
 Parent=FALLBACK/
 StartInCurrentSessionDir=false
-TerminalCenter=false
+TerminalCenter=true
 TerminalColumns=80
+TerminalMargin=1
 TerminalRows=24
 
 [Interaction Options]
