@@ -29,14 +29,14 @@ On high dpi monitors raw tty views might be too small to read and without provid
     ```
     [Wayland]
     EnableHiDPI=true
-    
+
     [X11]
     EnableHiDPI=true
-        
+
     [General]
     GreeterEnvironment=QT_SCREEN_SCALE_FACTORS=2,QT_FONT_DPI=192
     ```
- 
+
 ## KDE
 
 - most settings are in `~/.config/`
@@ -94,7 +94,7 @@ Remember to use `CTRL + i` to filter in this place, results are instant (as oppo
   - Word spacing
   - Stretch
   - Style strategy
-  - Font style (omitted when unavailable) 
+  - Font style (omitted when unavailable)
 
 ## VSCode
 
@@ -205,9 +205,10 @@ Considering dpi: Apple pairs 127dpi MBP with 216-218dpi (= effective 108-109dpi 
 ```plaintext
 framework 13.5 2880x1920
 1440x 960   (2.00)   128dpi    mac dpi (127)
-1477x 985   (1.95)   132dpi    
+1477x 985   (1.95)   132dpi
+1500x1000   (1.92)   134dpi    theoretical perfect 1500x1000 but KDE (Wayland?) does not offer 192% scaling
 1516x1011   (1.90)   135dpi    mbp 14 space
-1557x1038   (1.85)   139dpi    
+1557x1038   (1.85)   139dpi
 1600x1067   (1.80)   142dpi
 1646x1097   (1.75)   147dpi
 1694x1130   (1.70)   151dpi    mbp 16 space
@@ -313,7 +314,7 @@ Under Wayland you sometimes also need to restart the display manager after that:
 
 ### Changing mouse cursor themes over xwayland / gtk applications
 
-Add 
+Add
 
 ```
 [Icon Theme]
