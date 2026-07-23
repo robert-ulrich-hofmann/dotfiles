@@ -186,7 +186,8 @@
     "extensions.allowed": "*",
     "extensions.verifySignature": true,
     "extensions.autoCheckUpdates": true,
-    "extensions.autoUpdate": false,
+    "extensions.autoUpdate": "off",
+    "extensions.ignoreRecommendations": true,
 
     // FILES
     "files.autoSave": "off",
