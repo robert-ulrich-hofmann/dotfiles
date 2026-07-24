@@ -342,7 +342,9 @@ See: https://blogs.kde.org/2024/10/09/cursor-size-problems-in-wayland-explained/
 
 ### Update Firmware
 
-Usually automatically via LVFS with system updates.
+Check current version and other infos: `sudo dmidecode -t bios`
+
+Updates are usually automatic via LVFS with system updates.
 
 Manually:
 ```
