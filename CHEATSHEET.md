@@ -334,3 +334,17 @@ See [this commit](https://github.com/robert-ulrich-hofmann/dotfiles/commit/64683
 As of June 2025: No easy fix, no global fix.
 
 See: https://blogs.kde.org/2024/10/09/cursor-size-problems-in-wayland-explained/
+
+## Framework Laptop
+
+### Update Firmware
+
+Usually automatically via LVFS with system updates.
+
+Manually:
+```
+fwupdmgr refresh
+fwupdmgr get-updates
+fwupdmgr update
+```
+
