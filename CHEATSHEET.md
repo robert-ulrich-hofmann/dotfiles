@@ -206,7 +206,7 @@ Considering dpi: Apple pairs 127dpi MBP with 216-218dpi (= effective 108-109dpi 
 framework 13.5 2880x1920
 1440x 960   (2.00)   128dpi    mac dpi (127)
 1477x 985   (1.95)   132dpi
-1500x1000   (1.92)   134dpi    theoretical perfect 1500x1000 but KDE (Wayland?) does not offer 192% scaling (only 191.667% or 192.5%)
+1500x1000   (1.92)   134dpi    theoretical perfect 1500x1000 but Wayland does not offer 192% scaling (only 191.667% or 192.5%)
 1516x1011   (1.90)   135dpi    mbp 14 space
 1557x1038   (1.85)   139dpi
 1600x1067   (1.80)   142dpi
@@ -235,6 +235,9 @@ mbp 14.2 3024x1964
 
 mbp 16.2 3456x2234
 1728x1117   (2.00)   127dpi
+
+Apple Display 32.0 6016x3384
+3013x1692   (2.00)   108dpi
 ```
 
 ```plaintext
@@ -347,4 +350,3 @@ fwupdmgr refresh
 fwupdmgr get-updates
 fwupdmgr update
 ```
-
