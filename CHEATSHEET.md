@@ -235,9 +235,6 @@ mbp 14.2 3024x1964
 
 mbp 16.2 3456x2234
 1728x1117   (2.00)   127dpi
-
-Apple Display 32.0 6016x3384
-3013x1692   (2.00)   108dpi
 ```
 
 ```plaintext
@@ -258,10 +255,10 @@ ASUS ProArt PA348CGV 34.0 3440x1440
 Eizo FlexScan S2134 21.3 1600x1200
 1600x1200   (1.00)    94dpi    standard monitor dpi (94-98)
 
-apple display xdr 27.0 5120x2880
+Apple Display XDR 27.0 5120x2880
 2560x1440   (2.00)   109dpi
 
-apple pro display 32.0 6016x3384
+Apple Pro Display XDR 32.0 6016x3384
 3013x1692   (2.00)   108dpi
 ```
 
