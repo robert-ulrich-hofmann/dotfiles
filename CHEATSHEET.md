@@ -349,6 +349,6 @@ Updates are usually automatic via LVFS with system updates.
 Manually:
 ```
 fwupdmgr refresh
-fwupdmgr get-updates
-fwupdmgr update
+fwupdmgr get-updates   # only few available updates
+fwupdmgr update        # actually update
 ```
