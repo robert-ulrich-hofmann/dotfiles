@@ -108,7 +108,7 @@ ForegroundPositive=39,174,96
 ForegroundVisited=127,140,141
 
 [General]
-ColorSchemeHash=b06aba260488fc495d1c2e8a062537753fbc403a
+ColorSchemeHash=e5fc693d990dcdc0f12a9961cc4beab98d8edcb2
 UseSystemBell=true
 XftAntialias=true
 XftHintStyle=hintnone
@@ -119,6 +119,8 @@ fixed=Source Code Pro,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 LookAndFeelPackage=org.kde.breeze.desktop
 ShowDeleteCommand=false
 SmoothScroll=false
+contrast=4
+frameContrast=0.2
 widgetStyle=Breeze
 
 [KFileDialog Settings]
@@ -132,7 +134,7 @@ Show Inline Previews=false
 Show Preview=false
 Show Speedbar=false
 Show hidden files=true
-Sort by=Name
+Sort by=Date
 Sort directories first=true
 Sort hidden files last=false
 Sort reversed=false
