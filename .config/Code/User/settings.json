@@ -3,6 +3,19 @@
      * VSCODE
      */
 
+    // AGENTS
+    "agents.voice.enabled": false,
+    "agents.voice.handsFree": false,
+    "agents.voice.language": "en",
+    "agents.voice.liveTranscript": false,
+    "agents.voice.showTranscript": false,
+    "agents.voice.speakResponses": false,
+    "agents.voice.turn.silenceMs": 800,
+    "agents.voice.turn.stopPhrases": [
+        "send it"
+    ],
+    "agents.voice.voice": "maya_neutral",
+
     // BREADCRUMBS
     "breadcrumbs.enabled": true,
     "breadcrumbs.filePath": "on",
