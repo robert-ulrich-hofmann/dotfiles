@@ -353,6 +353,10 @@
 
     // WORKBENCH
     "workbench.enableExperiments": false,
+    "workbench.experimental.modernUI": false,
+    "workbench.experimental.cloudChanges.autoStore": "off",
+    "workbench.experimental.cloudChanges.partialMatches.enabled": false,
+    "workbench.experimental.share.enabled": false,
     "workbench.iconTheme": "vs-minimal",
     "workbench.layoutControl.enabled": false,
     "workbench.settings.enableNaturalLanguageSearch": false,
