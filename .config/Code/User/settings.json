@@ -76,6 +76,7 @@
     "editor.renderLineHighlight": "all",
     "editor.renderWhitespace": "boundary",
     "editor.rulers": [72, 80],
+    "editor.glyphMargin": false,
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 80,
     "editor.wrappingStrategy": "simple",
