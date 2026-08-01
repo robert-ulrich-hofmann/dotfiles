@@ -273,6 +273,10 @@ Apple Pro Display XDR 32.0 6016x3384
 - dsc compression
 - 8 bit vs 10 bit, how to force 8/10 bit in wayland / kde, "prefer efficency" in kde and problems with night light,
 - how to calculate raw bandwidth, formulas, how to reduce with each compression
+- good calculator https://linustechtips.com/topic/729232-guide-to-display-cables-adapters-v2/?section=calc&H=3840&V=2160&F=60&bpc=10&timing=cvtrb&calculations=show&formulas=show
+- shitdocks: uperfect, amazon basics
+- good: dell tb 5 (but still not perfect, fixed cable, power button does not work on linux / non-dell?)
+- 3 monitors + laptop at resolutions close to 40 gbit/s probably impossible with tb4 docks
 
 ### Display Settings KDE
 
