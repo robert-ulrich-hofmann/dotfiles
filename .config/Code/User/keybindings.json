@@ -4,5 +4,30 @@
         "key": "shift+delete",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
+    },
+    // TODO these commands were removed :(
+    //// current editor into modal overlay
+    //{
+    //    "key": "ctrl+alt+m",
+    //    "command": "workbench.action.moveActiveEditorToModalWindow",
+    //    "when": "editorTextFocus && !isInModalEditor"
+    //},
+    //// current editor out of modal overlay
+    //{
+    //    "key": "ctrl+alt+m",
+    //    "command": "workbench.action.moveModalEditorToMainWindow",
+    //    "when": "isInModalEditor"
+    //},
+    // poor man's modal overlay (works in single and split view)
+    {
+        "key": "ctrl+alt+m",
+        "command": "runCommands",
+        "args": {
+            "commands": [
+                "workbench.action.toggleEditorWidths",
+                "workbench.action.toggleCenteredLayout"
+            ]
+        },
+        "when": "editorTextFocus"
     }
 ]

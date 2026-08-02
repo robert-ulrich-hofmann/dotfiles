@@ -367,6 +367,8 @@
     "workbench.settings.openDefaultKeybindings": true,
     "workbench.editor.tabActionCloseVisibility": false,
     "workbench.settings.editor": "json",
+    // todo hotkey for this? see custom keybings ctrl+alt+m
+    "workbench.editor.useModal": "some",
     "workbench.editor.closeEmptyGroups": true,
     // todo is this name taken in marketplace?
     "workbench.colorTheme": "acme",
