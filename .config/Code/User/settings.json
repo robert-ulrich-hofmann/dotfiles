@@ -660,7 +660,7 @@
             //"editorGhostText.border": "#000000",
             //"editorGhostText.foreground": "#000000",
 
-            //"editorGroup.border": "#000000",
+            "editorGroup.border": "#000000",
             //"editorGroup.dropBackground": "#000000",
             //"editorGroup.dropIntoPromptBackground": "#000000",
             //"editorGroup.dropIntoPromptBorder": "#000000",
