@@ -21,7 +21,7 @@
                 "autoRotation": "InTabletMode",
                 "automaticBrightness": false,
                 "brightness": 0.45,
-                "colorPowerTradeoff": "PreferAccuracy",
+                "colorPowerTradeoff": "PreferEfficiency",
                 "colorProfileSource": "EDID",
                 "connectorName": "eDP-1",
                 "customModes": [
@@ -68,6 +68,21 @@
                             "y": 0
                         },
                         "priority": 1,
+                        "replicationSource": ""
+                    }
+                ]
+            },
+            {
+                "lidClosed": true,
+                "outputs": [
+                    {
+                        "enabled": true,
+                        "outputIndex": 0,
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "priority": 0,
                         "replicationSource": ""
                     }
                 ]

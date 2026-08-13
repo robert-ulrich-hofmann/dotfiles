@@ -8,10 +8,8 @@
 # if .alias exists, source alias else no error
 test -s ~/.alias && . ~/.alias || true
 
-# force 8 (="24") instead of 10 bit color depth to save bandwidth on thunderbolt dock
-# use 10 (="30") bit otherwise, prevent banding
-# check with xdpyinfo | grep "depths of root window"
-export KWIN_DRM_PREFER_COLOR_DEPTH=30
+# 24 = 8 bit, 30 = 10 bit; set to your screen
+export KWIN_DRM_PREFER_COLOR_DEPTH=24
 
 # set preferred visual editor
 export VISUAL=/usr/bin/kate
