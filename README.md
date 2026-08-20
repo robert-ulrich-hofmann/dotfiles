@@ -11,4 +11,6 @@ I'm getting questions on why X from this repo does not work on system Y. I have 
 - in a [Wayland session](https://wearewaylandnow.com/)
 - on a [Framework 13](https://frame.work/de/en/laptop13?tab=specs&slug=laptop13-diy-intel-ultra-1) with Intel Core Ultra 7 155H and integrated Intel Arc Graphics.
 
+I'm also using [Flatpak](https://flatpak.org/) more and more, short of system, KDE and editor everything (including all gaming / wine stuff) lives (and works flawlessly) in Flatland by now.
+
 So what I do here might not work on Debian stable, XFCE, X11, an AMD cpu, with NVIDIA graphics...
